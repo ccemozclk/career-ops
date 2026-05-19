@@ -9,11 +9,11 @@
 
 ## Summary
 
-Senior Data Scientist & Industrial Engineer with 4+ years of experience specialized in building end-to-end Machine Learning systems, Agentic AI workflows, and predictive analytics. Proven track record of bridging Operations Research (OR) with advanced AI to optimize complex manufacturing and supply chain environments.
+Senior Data Scientist with an Industrial Engineering background and 4+ years of progressive experience spanning data analytics, predictive modeling, and end-to-end ML system deployment. Specialized in anomaly detection, financial risk modeling, and predictive maintenance — with proven impact across manufacturing, supply chain, and financial domains.
 
-Expertise in architecting Multi-Agent decision-support frameworks (LangChain/LangGraph) and deploying production-grade ML models via RESTful APIs. Successfully delivered high-impact solutions including a 15% increase in critical machine availability through predictive maintenance, a 97% recall rate on medical diagnostic models, and an 8-hour weekly reduction in operational downtime through intelligent demand forecasting agents.
+Strong combination of deep technical expertise (TensorFlow, PyTorch, XGBoost, PySpark) and engineering rigor (MLOps, Docker, FastAPI/Django deployment). Bridges advanced AI theory with operations research principles to deliver measurable business outcomes — including a 15% increase in critical machine availability via predictive maintenance, 97% recall on medical diagnostic models, and an 8-hour weekly reduction in operational overtime through ML-driven supply chain forecasting.
 
-Strong technical foundation in Deep Learning (CNNs, RNNs, YOLO), Time-Series Analysis, and MLOps (Docker, FastAPI/Django), with a focus on translating raw sensor and ERP data into scalable, business-critical automation.
+Comfortable owning the full lifecycle: from raw data ingestion and feature engineering, through model training and validation, to containerized deployment and RESTful API integration.
 
 ## Experience
 
@@ -21,61 +21,48 @@ Strong technical foundation in Deep Learning (CNNs, RNNs, YOLO), Time-Series Ana
 *Jan 2026 – Present | Maltepe, Istanbul*
 
 - Spearheaded the architectural scaling of a custom Django web application, transitioning it from an internal reporting tool into a centralized hub for deploying ML models via RESTful APIs.
-- Architected a Multi-Agent decision-support framework leveraging LangChain and dynamic time-series profiling to automate rolling ABC-XYZ demand segmentation for high-velocity flagship brands.
-- Engineered an intelligent 'Forecaster Agent' that automatically routes SKUs to specialized model pipelines: triggering lean JIT/statistical workflows for stable items (AX), deploying XGBoost time-series models for seasonal/trend fluctuations (BY), and executing ML-driven anomaly isolation alongside custom Safety Stock Optimization algorithms for volatile demand patterns (CZ).
-- Designed and implemented an Agentic AI route profitability framework using LangGraph to dynamically cross-reference order gross margins against real-time logistics expenses ("True Cost to Serve").
-- Integrated Operations Research (OR) mathematical solvers within a Multi-Agent workflow to automatically generate delivery consolidation and routing alternatives, successfully converting high-overhead, low-margin orders into optimized, profitable logistics paths.
 - Directed advanced predictive operations using Python-based supply chain algorithms, sustaining an **8-hour weekly reduction in operational overtime** and architecting robust pipelines for AI-driven forecasting.
 - Led cross-functional data initiatives, translating SKU-level Association Rule Mining outputs into strategic business actions that drove continuous revenue growth.
-- **Tech:** Python, Django, REST APIs, ML pipelines, LangChain, Multi-Agent Systems, Time-Series Forecasting,XGBoost, ABC-XYZ Matrix, Association Rule Mining, PostgreSQL, PostgreSQL, Oracle DB, Docker
+- **Tech:** Python, Django, REST APIs, ML pipelines, Association Rule Mining, PostgreSQL, Docker
 
 ### Anadolu Pet Akvaryum & Effeffe — IT & Data Analytics Specialist
 *Sept 2024 – Dec 2025 | Maltepe, Istanbul*
 
 - Architected, developed, and deployed a full-stack internal web application from scratch using Python (Django) and SOLID principles — establishing foundational software engineering and deployment practices.
 - Engineered initial predictive supply chain optimization models using Python and PL/SQL, **reducing stockouts and improving inventory turnover**.
-- Designed and engineered an Agentic AI Copilot using LangChain and LangGraph to streamline a complex, manual quarterly ERP budget entry workflow into an interactive conversational interface.
-- Implemented a multi-node state machine framework integrated with Oracle DB to dynamically validate live user entries against ERP data constraints at each step, mitigating transactional risks for non-technical business units.
 - Conducted Route-Level Profitability Analysis with advanced SQL, defining cost-to-profit ratios that delivered a **3% improvement in overall logistics efficiency**.
-- **Tech:** Python, Django, PL/SQL, Oracle, LangChain, LangGraph, RAG (State Management), SOLID, Full-Stack Deployment
+- **Tech:** Python, Django, PL/SQL, Oracle, SOLID, full-stack deployment
 
 ### Birinci Automotive — Mid-Level Data Analyst
 *Jan 2022 – Sept 2024 | Çayırova, Kocaeli*
 
 - Engineered robust ETL pipelines in MSSQL and Python to ingest and process high-volume manufacturing and machine sensor data, replacing manual reporting workflows.
-- Developed a **Predictive Maintenance & Anomaly Detection framework** targeting the **OEE Availability metric** by analyzing vibration, temperature, and electrical sensor data at machine failure timestamps, delivering a **15% weekly increase in critical machine availability**.
-- Built a **robust Computer Vision pipeline using YOLO models** to monitor the **OEE Quality metric** by analyzing industrial camera feeds of hot metal alloy parts on high-pressure press conveyors.
-- Implemented **advanced Data Augmentation techniques** to overcome challenging lighting conditions (high-glare hot metal in dark forge environments), significantly improving image processing accuracy.
+- Developed a **Predictive Maintenance & Anomaly Detection framework** using unsupervised clustering on historical machine failure patterns, delivering a **15% weekly increase in critical machine availability**.
 - Processed and analyzed complex time-series data from machine sensors for cycle time optimization, building a strong foundation for sequential modeling (RNNs).
 - Bridged raw production data and operational strategy, **improving Overall Equipment Effectiveness (OEE) by 15%**.
-- **Tech:** Python, MSSQL, Computer Vision (YOLO), Data Augmentation, Unsupervised Clustering, Time-Series Analysis, ETL, Predictive Maintenance.
+- **Tech:** Python, MSSQL, ETL, unsupervised clustering, time-series analysis
 
 ### Birinci Automotive — Junior Data Analyst
 *June 2021 – Jan 2022 | Çayırova, Kocaeli*
 
 - Conducted Exploratory Data Analysis (EDA) and applied statistical methods to workforce datasets, uncovering hidden patterns to optimize HR policies.
-- Innovatively adapted the **CRM RFM (Recency, Frequency, Monetary) framework** to manufacturing equipment, treating machines as internal customers to profile their performance and reliability.
--Analyzed and segmented diverse machinery (Maxi Presses, CNC Milling/Lathes, Hammer Presses) based on maintenance recency, breakdown frequency, and labor repair costs.
-- Optimized maintenance **scheduling through data-driven machine segmentation**, ensuring production continuity and **saving 8 hours (1 full production shift)** of operational downtime.
-- Designed and implemented automated data workflows and ingestion pipelines, **improving reporting efficiency by 10%**.
+- Designed and implemented automated data workflows and ingestion pipelines, **improving reporting efficiency by 15%**.
 - Collaborated with engineering teams to align workforce productivity metrics with manufacturing OEE goals.
-- **Tech:** Python, SQL, RFM Analysis, Data Segmentation, Statistical Analysis, ETL
+- **Tech:** Python, SQL, statistical analysis, ETL
 
 ## Skills
 
-**Languages & Core:** Python (Advanced), SQL (PL/SQL, MSSQL, Oracle, PostgreSQL), Bash, JavaScript
+**Languages & Core:** Python (Advanced), SQL (Advanced), Bash, JavaScript (Basics)
 
-**AI & Machine Learning:** Scikit-learn, XGBoost, CatBoost, h2o.ai, Time-Series Forecasting, Anomaly Detection, Association Rule Mining (ARM), Clustering (K-Means, DBSCAN)
+**Machine & Deep Learning:** TensorFlow, Keras, PyTorch, Scikit-learn, XGBoost, h2o.ai, CNNs, RNNs, Computer Vision, Explainable AI (Grad-CAM), Transfer Learning, Fine-Tuning
 
-**Deep Learning & Computer Vision:** TensorFlow, Keras, PyTorch, YOLO (v5/v8/v11), CNNs, RNNs/LSTMs, Data Augmentation, Explainable AI (Grad-CAM), Transfer Learning
+**MLOps, Web & Deployment:** Docker, Flask, FastAPI, Django, RESTful APIs, Git, Linux, End-to-End ML Deployment
 
-**Agentic AI & LLMs:** LangChain, LangGraph, Multi-Agent Systems, RAG (Retrieval-Augmented Generation), Prompt Engineering, State Machine Orchestration
+**Big Data & Cloud:** Apache Spark (PySpark), Databricks, AWS (EC2, S3), Distributed Computing
 
-**MLOps, Web & Deployment:** Docker, Django (Full-stack), FastAPI, Flask, RESTful APIs, Git, Linux, Nginx, SOLID Principles, CI/CD Baselines
+**Data Engineering & Databases:** PostgreSQL, MSSQL, Oracle, ETL Pipelines, Pandas, NumPy
 
-**Data Engineering & Big Data:** Apache Spark (PySpark), Databricks, ETL Pipelines, Pandas, NumPy, Data Profiling, Distributed Computing
-
-**Industrial Engineering & Optimization:** Mixed-Integer Linear Programming (MILP), Multi-Criteria Decision Making (AHP, TOPSIS), OEE Optimization, Supply Chain Modeling (ABC-XYZ Matrix), Inventory Theory (JIT, Safety Stock)
+**Advanced Concepts:** OOP, API & System Architecture, A/B Testing & Experiment Design, Cost-Function Optimization, Mixed-Integer Programming (MILP), Multi-Criteria Decision Making (AHP, TOPSIS)
 
 ## Education
 
