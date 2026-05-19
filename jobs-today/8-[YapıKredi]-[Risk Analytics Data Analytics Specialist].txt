@@ -1,0 +1,95 @@
+Company: [Yapı Kredi]
+Position: [Data Analytics Specialist]
+URL: [https://www.linkedin.com/jobs/view/4407391349]
+Manual Score: 4/5
+
+Quick Check:
+[X] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+Yapı Kredi olarak 1944’ten beri ilklerin, yeniliklerin ve kültür sanatın bankasıyız. Finans sektörünün tartışmasız lideri olma vizyonuyla yolumuzda ilerliyor, her adımımızda paydaşlarımıza ve ülkemize değer katıyoruz. Bugünü olduğu kadar geleceği de önemsiyor, sürdürülebilirliği iş kültürümüzün merkezine yerleştiriyoruz.
+
+
+Sen de bugüne ve geleceğe değer katan, yenilikçi fikirlerin peşinden giden, gücünü birbirinden alan bir ekibin parçası olmak istersen hemen aramıza katıl.
+
+
+
+
+Kredi Riski Modelleme ve Analitik ekiplerimizde görev alacak Risk Analitiği Veri Bilimi Uzmanı arıyoruz!
+
+
+
+
+
+Risk Analitiği Veri Bilimi Uzmanının sorumlulukları neler?
+
+
+
+Risk parametrelerinin (PD, LGD, EAD, vb.) tahminine yönelik modeller geliştirmek ve bu modelleri karşılık hesaplama (IFRS-ECL) ve ekonomik sermaye (RWA) yönetimi süreçlerini desteklemek için kullanmak.
+Veri odaklı karar verme süreçlerine katkıda bulunmak amacıyla Satış/Pazarlama, Kredi Tahsisi, Tahsilat ve Strateji birimleriyle yakın iş birliği yapmak. İş ihtiyaçları doğrultusunda kredi stratejileri ve karar optimizasyonları için analitik çözüm önerileri üretmek.
+Geleneksel veri ambarı ve büyük veri ortamlarında veri zenginleştirme faaliyetleri yürütmek ve iş süreçlerinde kullanılabilecek anlamlı özellikler oluşturmak.
+Model performansını izlemek ve iyileştirmek için gereken aksiyonları belirlemek.
+Veri bilimi alanındaki yenilikleri ve teknolojik değişimleri takip ederek sahip olunan yetkinlik setinin sürdürülebilirliğini ve sürekli iyileştirilmesini sağlamak.
+İleri analitik tekniklerin uygulanmasını sağlamak için Bilgi Teknolojileri ekipleriyle iş birliği yapmak ve gerekli teknolojik altyapı ihtiyaçlarını belirlemek.
+
+
+Bu rol için aradığımız nitelikler neler?
+
+
+
+Sayısal bir disiplinde (Endüstri Mühendisliği, Bilgisayar Mühendisliği, Matematik Mühendisliği, İstatistik vb.) Lisans veya Yüksek Lisans derecesine sahip,
+Veri bilimi ve risk analitiği alanında en az 2 yıl deneyimli,
+Python veya Spark ile kodlama ve analitik modelleme konusunda deneyimli,
+İlişkisel veri tabanları ve veri depolama araçlarıyla çalışma konusunda yetkinlik sahibi,
+Karmaşık SQL sorguları üzerinde performans odaklı kod optimizasyonu yapabilen,
+Güçlü veri analizi ve görselleştirme becerilerine sahip,
+Yazılı ve sözlü iletişim becerileri ile veriden elde edilen çıkarımları etkili bir şekilde iletebilen,
+Sunum ve ikna kabiliyetine sahip,
+İyi derecede yazılı ve sözlü İngilizce bilen,
+Bankacılık ürün ve iş süreçlerine yönelik bilgi sahibi olan bir çalışma arkadaşı arıyoruz.
+
+
+
+
+Yapı Kredili olmak sana neler katacak?
+
+
+
+📖 Yapı Kredi Akademi ile sınırsız gelişim,
+🏆Fark yaratan başarıların ödüllendireceği takdir ve ödüllendirme uygulamaları,
+🔄Yapı Kredi ve Koç Grubu içinde kariyer, gelişim ve rotasyon fırsatları,
+⚕️Özel sağlık ve hayat sigortası,
+🍝TokenFlex dijital yemek kartı,
+✨Sosyal destek ödemeleri,
+🐾Yapı Kredi Gönüllüleri ile dâhil olabileceğin sosyal sorumluluk projeleri,
+🏀16 farklı spor dalında faaliyet gösteren Yapı Kredi Spor Kulübü,
+🎭Yapı Kredililerin sosyal kulübü BizClub ile birçok kültür-sanat etkinliğine indirimli bilet alma fırsatı,
+🎁Özel günler için hediye kitleri,
+🎂Doğum günü izni,
+🐏Koç Ailem, Koç Akademi, Koç Healthcare eşliğinde Koçlu olmanın ayrıcalıklı dünyası,
+…ve çok daha fazlası!
+
+
+Eğer sen de bu dünyanın bir parçası olmak istiyorsan, hemen başvurunu yap ve Yapı Kredili olma yolunda ilk adımını at!
+Geleceğe yön vermek #YapımızdaVar.
+
+
+
+
+
+
+* Yapı Kredi’de işe alım sürecimiz tüm pozisyonlar için İK görüşmesi, yönetici görüşmeleri ve yetkinlik değerlendirme envanterleri içerir. Bütün aşamaları başarıyla tamamlaman durumunda teklif aşamasına geçilir.
+
+
+
+“6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında kişisel verilerinizin işlenmesinden doğan haklarınıza ve bu konudaki detaylı bilgiyehttps://kariyerim.yapikredi.com.tr/Account/StaticKvkk adresinde yer alan aydınlatma metnimizden ulaşabilirsiniz.”
+
+
+
+]

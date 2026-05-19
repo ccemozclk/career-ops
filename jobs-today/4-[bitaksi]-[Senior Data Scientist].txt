@@ -1,0 +1,97 @@
+Company: [biTaksi]
+Position: [Senior Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4392506421/]
+Manual Score: 4.5/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+İş ilanı hakkında
+🚀Shaping the Future of Mobility: Data Scientist @bitaksi
+
+
+
+As a Data Scientist, you won't just be "running models." You will be the architect of our intelligence layer, building the algorithms that determine how a city moves.
+
+
+
+About bitaksi:
+
+bitaksi is Turkey's leading taxi-hailing app, transforming urban mobility with innovative technology. Over the past 13 years, we've grown from a small startup to a pivotal part of people's daily lives, providing safe, easy, and modern transportation solutions.
+
+
+
+Company Vision:
+
+Our vision is to transform the way people move by leveraging cutting-edge technology and creating seamless experiences for both riders and drivers. We aim to be the preferred transportation platform of choice, setting new industry standards and reshaping urban mobility.
+
+
+
+Why Choose bitaksi:
+
+Impactful Work: By joining bitaksi, you will have the opportunity to work on projects that have a direct impact on the lives of millions of people. Your contributions will help shape the future of transportation and make a difference in the way people navigate their daily lives.
+
+Innovation and Technology: Be part of a dynamic team that leverages the latest technology to develop user-centric solutions in a rapidly evolving industry.
+
+
+
+What You’ll Do 🧠
+
+
+
+Predict the Unpredictable: Develop time-series models to forecast demand and supply in real-time, ensuring a taxi is always there when a user taps the app.
+Optimize the Journey: Build and deploy machine learning models that optimize matching algorithms, reducing ETAs and increasing driver earnings.
+Guard the Ecosystem: Create sophisticated anomaly detection systems to identify and mitigate fraudulent transactions and behaviors.
+Drive Product Strategy: Turn raw data into strategic insights. You’ll work closely with Product and Ops teams to launch features that users love.
+Scale for Growth: Design scalable ML pipelines (from EDA to deployment) using modern stack tools (Python, SQL, Spark, Airflow, etc.).
+
+
+Who You Are ✨
+
+Data Whisperer: You have a solid background in Statistics, Mathematics, or Computer Science (BS/MS/PhD).
+Algorithmically Gifted: You are proficient in Python/R and have deep experience with Scikit-Learn, XGBoost, TensorFlow, or PyTorch.
+Problem Solver: You don’t just look at accuracy scores; you care about the business ROI of your models.
+Tech Savvy: Comfortable with big data environments and cloud infrastructure (AWS/GCP).
+Effective Communicator: You can explain a "Random Forest" to a marketing manager and a "Gradient Descent" to a peer with equal clarity.
+
+
+Why bitaksi? 
+
+Real-World Impact: Your work isn't hidden in a lab; it’s used by millions of people every day.
+Agile Culture: We move fast, we test fast, and we celebrate wins together.
+Tech-First Environment: We invest heavily in our data infrastructure and encourage continuous learning.
+
+
+Are you ready to take the driver's seat?
+
+Apply now and let’s build the smartest mobility platform together.
+
+
+
+What we offer?
+
+Open communication, teamwork and strong company culture of continuous development
+Private health insurance (family included)
+Meal card
+Monthly IstanbulCard reimbursement
+Team and company activities for motivation
+Discounted gym membership
+Online education platforms
+
+
+Join Us: Become part of a team that’s redefining urban mobility. Together, let’s create innovative solutions that enhance the lives of millions.
+
+
+
+Under the scope of your application, your personal data submitted to us will be processed in accordance with the Law on the Protection of Personal Data No. 6698 for the purposes of managing and evaluating our recruitment processes and contacting you when necessary. You can access our information text on the processing of your personal data via the following link: https://www.bitaksi.com/en/personal-data-protection-policy
+
+
+İş ilanınızda bulunan haklar
+
+Medical insurance]

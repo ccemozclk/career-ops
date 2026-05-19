@@ -1,0 +1,92 @@
+Company: [MigrosOne]
+Position: [Senior Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4408871206/]
+Manual Score: 4/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[X] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+Who are we?
+
+Our business is technology, food and retail. We are a young team that combines all resources with technology; Our goal is to provide an excellent e-commerce service to meet your needs. In short, you can call us Migros One. 😉
+
+
+
+Today, as a team that holds the “Great Place To Work” certificate with the contributions of our employees we produce, learn and develop together. We rediscover our passion for our business every day and build Migros One culture together.
+
+
+
+Our Culture
+
+We are #ONE to create a better tomorrow for our community. Our way of working includes four core values that we strive to act:
+
+
+
+1. Take accountability with passion
+
+2. Drive innovation with curiosity
+
+3. Make a difference for our customers
+
+4. Create open communication
+
+
+
+We live these values every day and create an environment where everyone enjoys working. Our business culture based on trust, openness and innovation has been recognized with our “Great Place To Work” certificate!
+
+
+
+What Do We Do?
+
+As Migros One; We spread happiness in being the pioneer of innovation in the field of food and retail technology with our brands Migros Sanal Market, Migros Hemen, Migros Extra, Migros Yemek, Macroonline, Tazedirekt, Mion and Petimo!
+
+
+
+Our determination to find fast and effective solutions always keeps us one step ahead. Our team's passion and energy make their jobs enjoyable.
+
+
+
+Thanks to our people-oriented approach, we aim to create a more comfortable and practical world for everyone by using them all. We constantly strive to provide the best experience to our consumers and employees! As Migros One team, we get excited with every member of our team creating his/her own career story!
+
+
+
+If you would like to be a part of this visionary and tech-savvy e-commerce team, don’t wait! Make your application!
+
+
+
+We are looking for Senior Data Scientist who will be on our team!
+
+
+
+What will we expect from you?
+
+3+ years of hands-on experience delivering end-to-end data science and machine learning solutions in production environments.
+Deep understanding of core data science concepts: data preprocessing, feature engineering, statistical modeling, and rigorous model evaluation.
+Advanced proficiency in Python, with a focus on writing efficient, maintainable, and production-level code.
+Commitment to best practices throughout the data science workflow, from exploration to deployment and monitoring.
+Strong proficiency in applying GenAI techniques—including RAG, LLM fine-tuning, and multi-agent workflows—to build scalable, business-impactful systems.
+Knowledge of deep learning methods is a plus.
+Familiarity with Docker for containerization and reproducible deployments is a plus.
+Experience developing solutions in the operations domain within e-commerce is a plus.
+Experience in the search domain is a plus.
+E-commerce platform experience, such as user analytics, recommendation systems, and A/B testing, is a plus.
+Strong team player with proven experience in collaborative, Agile/Scrum environments.
+Excellent communication skills and the ability to explain complex concepts to non-technical stakeholders.
+Bachelor's degree in Computer Science, Engineering, Data Science, or a related field, or equivalent practical experience.
+
+
+What will you do?
+
+You'll collaborate with cross-functional teams to design, build, and deploy innovative AI-driven features that enhance our e-commerce platform.
+You'll own the end-to-end data science workflow: from data preprocessing and feature engineering, to model development, evaluation, and production deployment.
+You'll have direct impact by developing, fine-tuning, and launching generative AI models and intelligent agents in real-world, high-scale environments.
+You'll help define and maintain best practices for model monitoring, retraining, and ensuring robust, reproducible, and maintainable code.
+You'll work closely with product, engineering, and operations teams to solve challenging problems in the operations and search domains, as well as optimize user experience through analytics, recommendations, and experimentation.
+You'll actively participate in Agile/Scrum processes, contributing to team planning, code reviews, and knowledge sharing.]

@@ -1,0 +1,87 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Cem Özçelik"
+  email: "i.cemozcelik@gmail.com"
+  phone: "+90 553 473 4556"
+  location: "Istanbul, Turkey"
+  linkedin: "linkedin.com/in/cemozcelık"
+  github: "github.com/ccemozclk"
+
+target_roles:
+  # North Star roles — priority order
+  primary:
+    - "Senior Data Scientist"
+    - "ML Engineer"
+    - "Senior Data Analyst"
+  # Archetypes — detailed framing in modes/_profile.md
+  archetypes:
+    - name: "Data Scientist - Classical ML"
+      level: "Senior"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Data Scientist - Deep Learning"
+      level: "Senior"
+      fit: "primary"
+    - name: "ML Engineer / MLOps"
+      level: "Senior"
+      fit: "primary"
+    - name: "Data Scientist - Financial Risk"
+      level: "Senior"
+      fit: "primary"
+    - name: "Senior Data Analyst"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "Senior Data Scientist with Industrial Engineering roots — operations research to production ML"
+  exit_story: "Industrial Engineering graduate who crossed into DS through manufacturing analytics at a Tier-1 automotive supplier, then scaled ML to a multi-model production platform. The OR/optimization mindset — MILP, AHP, cost-function thinking — is the differentiator: I optimize for the right loss function, not just the highest accuracy."
+  superpowers:
+    - "End-to-end ML deployment (notebook to containerized REST API)"
+    - - "Cost-function thinking from Industrial Engineering — applied directly: 97% Recall on medical diagnostics (FN >> FP), Predictive Maintenance optimizing for downtime cost, Credit Risk balancing FP/FN business cost"
+    - "Anomaly detection & predictive maintenance in real manufacturing environments"
+    - "Deep learning with explainability (Grad-CAM, transfer learning, imbalanced datasets)"
+    - "MLOps ownership (Docker, Django/FastAPI, model registry, versioned APIs)"
+  domain_strengths:
+    - "Predictive maintenance / manufacturing"
+    - "Financial risk / fraud detection"
+    - "Medical imaging / healthcare AI"
+    - "Supply chain optimization"
+    - "MLOps and end-to-end deployment"
+  proof_points:
+    - name: "AI-Powered Medical Diagnostics (CNN + Grad-CAM)"
+      url: "github.com/ccemozclk/Medical-Diagnostics"
+      hero_metric: "97% Recall on pneumonia detection with Grad-CAM explainability"
+    - name: "End-to-End Credit Risk MLOps Pipeline"
+      url: "github.com/ccemozclk/Credit-Risk"
+      hero_metric: "XGBoost + Docker + Django — full lifecycle from raw data to production app"
+    - name: "Scalable Recommendation Engine (PySpark)"
+      url: "github.com/ccemozclk/Spark-Recommendation-Engine"
+      hero_metric: "K-Means + ALS collaborative filtering on Databricks at distributed scale"
+
+compensation:
+  # Turkey local market
+  target_range_local_try: "100,000-200,000 TL/month"
+  # EU remote or relocation
+  target_range_remote_eu: "55,000-90,000 EUR/year"
+  minimum_remote_eu: "50,000 EUR/year"
+  # US remote
+  target_range_remote_us: "130,000-180,000 USD/year (base) + equity"
+  currency: "TRY/EUR/USD depending on role location"
+  location_flexibility: "Open to remote, hybrid Istanbul, or EU relocation for the right role"
+
+location:
+  country: "Turkey"
+  city: "Istanbul"
+  timezone: "TRT (UTC+3)"
+  visa_status: "Turkish citizen. EU work eligibility: requires sponsorship (open to it for strong roles)."
+  onsite_availability: "Full relocation open for strong EU offer"
+
+language:
+  modes_dir: "modes"  # Use "modes/de" for DACH, "modes/fr" for France
+
+cv:
+  output_format: "html" # "html" (default) or "latex"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # canva_resume_design_id: "DAxxxxxxxxx"

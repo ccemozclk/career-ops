@@ -1,0 +1,112 @@
+Company: [ebebek]
+Position: [Data Science Manager - REF: 26LVCKB]
+URL: [https://www.linkedin.com/jobs/view/4398682790/]
+Manual Score: 3.5/5
+
+Quick Check:
+[X] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+Hakkımızda:
+
+ebebek, annenin ve bebeğin, doğum öncesinden başlayıp 4 yaşa kadar uzanan süreçteki tüm ihtiyaçlarını; kaliteli ürünler, güler yüzlü kadro, yüksek hizmet standartları, hesaplı fiyatlar, uzman bilgisi ve satış sonrası desteğiyle günün 24 saati karşılayan bir internet sitesi ve mağazalar zinciridir.
+
+
+
+
+ebebek’te Nelere Değer Veriyoruz?
+
+
+
+İnsan Odaklılık & Empati: Bebeveynlerin ve bebeklerin mutluluğunu en ön planda tutarak, onların ihtiyaçlarını anlamaya ve en iyi deneyimi sunmaya odaklanıyoruz. Çalışanlarımızın gelişimine destek vererek potansiyellerini en üst seviyeye çıkarmayı hedefliyoruz. 👥
+
+
+Yaratıcılık & Yenilikçilik: Bebeveynlerin hayatını kolaylaştıracak yenilikçi çözümler üretmek, en güncel teknolojileri ve fikirleri keşfetmek için tutkuyla çalışıyoruz. 💡
+
+
+Çözüm Odaklılık: Çalışanlar olarak çözüm odaklı bir bakış açısını benimsiyor, karşılaştığımız her zorlukta hızlı, pratik ve etkili çözümler üretiyoruz. Değişen koşullara hızla adapte olarak en iyi müşteri ve çalışan deneyimini sunmaya odaklanıyoruz. 🚀
+
+
+İş Birliği & Takım Ruhu: Başarının temelinde güçlü bir ekip çalışmasının olduğuna inanıyor, şeffaflık ve karşılıklı güven kültürüyle hareket ediyoruz. 🤝
+
+
+Bebeveyn Odaklılık: Bebeklerin ve bebeveynlerin ihtiyaçlarını merkeze koyarak, onlara en iyi hizmeti ve deneyimi sunmayı amaçlıyoruz. 👶
+
+
+Sürekli Gelişim Ruhu: Hızlı hareket eden ve değişime hızla adapte olan bir organizasyon olarak, her zaman daha iyisini yapmak için öğrenmeye ve gelişmeye devam ediyoruz. 📈
+
+
+Sürdürülebilirlik: “Gelecek Bebeklerin” mottosundan hareketle sürdürülebilir çözümler geliştirerek, dünyamıza ve toplumumuza katkıda bulunuyoruz. 🌿
+
+
+
+
+Pozisyon: Veri Bilimi Yöneticisi
+
+
+
+Seni Neler Bekliyor, Sorumlulukların Neler Olacak?
+
+Müşteri verisinin tekilleştirilmesi, zenginleştirilmesi ve segmentasyon süreçlerini yürütmek
+CRM ve pazarlama çalışmalarını destekleyecek istatistiksel modeller geliştirmek ve düzenli olarak güncellemek
+Müşteri davranışlarını analiz ederek kategori, marka, ürün eğilimleri, churn, cross-selli up-sell ve yaşam boyu değer (CLTV) modellerini kurgulamak
+Analiz ve model sonuçlarını yorumlayarak iş birimlerine içgörü sunmak
+Pazarlama ve CRM ekiplerinin proje ihtiyaçlarını belirlemek, veri kalitesini sağlamak ve veri tabanlarının doğruluğunu takip etmek için BT ekipleri ve 3. parti firmalarla koordineli çalışmak
+Sadakat programı kapsamında ihtiyaç olan analitik modelleri karşılamak
+Düzenli ve ad-hoc analizleri gerçekleştirmek, Power BI veya benzeri araçlarla raporlamaları otomatize etmek
+Büyük ve karmaşık veri kümelerini -özellikle müşteri ve kampanya verilerini- anlamlı kalıplar, eğilimler ve temel içgörüler elde etmek
+Müşteri segmentasyonu, müşteri tabanlı tahminler ve kampanya optimizasyonu için tahmine dayalı modeller geliştirmek
+A/B testleri kurgulayarak pazarlama bütçesinin en yüksek ROI ile kullanılmasını sağlamak
+Üst yönetime ve Pazarlama Direktörlüğü’ne, karmaşık analizleri sade ve aksiyona dönüştürülebilir iş içgörüleri (insights) olarak sunmak
+
+
+
+
+
+
+Beklediğimiz Nitelikler:
+
+Üniversitelerin MIS, istatistik, matematik, endüstri mühendisliği, bilgisayar mühendisliği veya ilgili bölümlerinden mezun,
+İyi derecede ingilizce bilgisine sahip
+Veri bilimi, müşteri analitiği veya pazarlama analitiği alanında en az 5 yıl deneyim,
+Google Cloud Platform (GCP) tecrübesi,
+SQL, Python gibi analiz araçlarında tecrübeli,
+Churn, LTV (Yaşam Boyu Değer), Segmentasyon (RFM+), Next Best Action modellerinde tecrübe sahibi,
+İleri seviye Python (Pandas, Scikit-learn, PySpark, XGBoost/LightGBM) ve karmaşık veri setlerini manipüle edebilecek derecede SQL bilgisi,
+Supervised/Unsupervised Learning, Deep Learning ve Reinforcement Learning tekniklerini pazarlama problemlerine (Recommendation Systems, Customer Lifetime Value, Uplift Modeling) uygulama yetkinliği,
+Power BI, Tableau veya benzeri BI araçlarını etkin kullanabilen,
+Analitik düşünme, problem çözme, iletişim ve iş birliği yeteneği güçlü,
+Müşteri segmentasyonları ve analitik tahminsel modellemeler konularında bilgi sahibi,
+Perakende, e-ticaret, bankacılık, telekomünikasyon, sigorta vb. sektörlerde deneyim sahibi,
+Veri bilimi alanlarındaki teknolojik gelişmeleri takip eden, çalışmalarına entegre edebilen,
+A/B testing metodolojileri konusunda bilgi sahibi,
+Ekibe mentorluk yapmak, projelerin teknik kalitesinden sorumlu olmak,
+KPI göstergeleriyle uyumlu olarak birden fazla projeyi ve önceliği koordine etme ve zorlu teslim tarihlerini yönetebilme,
+Analitik modelleri sadece rapor olarak bırakmayıp, gerçek zamanlı çalışan (real-time inference) pazarlama ürünlerine dönüştürmek,
+
+
+
+
+
+
+Sana Neler Sunuyoruz?
+
+Rekabetçi maaş ve çalışana özel indirimler
+Kariyer gelişim fırsatları ve profesyonel eğitimler
+Yüksek lisans, yabancı dil destek paketleri
+Bebekoloji felsefesi ile bebeveynlere değer katma fırsatı
+
+
+Bizimle heyecan verici bir yolculuğa çıkmaya ve büyüme hikayemizde önemli bir rol oynamaya hazırsan, seni Veri Bilimi Yöneticisi pozisyonuna başvurmaya davet ediyoruz!
+
+
+Sen de ekibimize katıl ve ebebek'in geleceğini birlikte şekillendirelim!
+
+
+** Başvurunuz kapsamında kişisel verileriniz, ebebek tarafından 6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca işlenecektir. Detaylı bilgilendirme için https://www.e-bebek.com/kisisel-verilerin-islenmesi-ve-korunmasi-politikasi üzerinden Aday Aydınlatma Metni'ni inceleyebilirsiniz.]

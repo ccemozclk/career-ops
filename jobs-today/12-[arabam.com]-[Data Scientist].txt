@@ -1,0 +1,107 @@
+Company: [Arabam.com]
+Position: [Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4405119016/]
+Manual Score: 4/5
+
+Quick Check:
+[X] Senior level explicit (not Junior, not Manager)
+[X] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+We are looking for a Data Scientist.
+
+
+
+About the Company 
+
+Arabam.com, the leading auto classifieds marketplace of Turkey, was established in 2000 and joined the iLab Holding family in 2016. 
+
+The arabam.com team, working with the mission to make buying and selling vehicles from the Internet much more reliable, easier and more comfortable, aims to improve the users experience with new functions continuously. 
+
+Those who want to sell their car or who want to buy a car can make transactions anytime, anywhere. 
+
+ 
+
+7 million users per month, 
+Over 200 million page views, 
+7000+ car dealer members, 
+6 million individual members, 
+92% mobile traffic. 
+ 
+
+
+
+About You 
+
+Stay open to learn and be a great team player with good communication skills (not a super star), 
+ Be a lifelong learner and take responsibility. 
+Able to analyze and implement solutions to presented problems while satisfying the user’s needs, 
+Write code that is maintainable and highly reliable, 
+Have strong problem-solving skills, 
+Have the ability to multi-task and prioritize work as necessary, 
+Enjoy collaboration with a team to successfully complete projects. 
+Working with cross functional teams. 
+Experience in a startup is a plus, 
+Bring an AI-first mindset and actively use AI coding assistants (e.g., Cursor, Claude Code, Codex) as part of your daily workflow, 
+
+
+If You Have 
+
+Bachelor’s or Master’s degree in Statistics, Mathematics, Econometrics, Computer Science, or a related field (or equivalent experience), 
+3+ years of experience in a similar role, 
+Proven experience in building advanced predictive analytics models and working with large datasets, 
+Fluency in Python and experience with data science libraries, 
+Hands-on experience with deep learning architectures such as CNN, RNN, LSTM, 
+Hands on experience with libraries like Tensorflow, Keras, PyTorch, etc. 
+Strong command of SQL and experience with big data frameworks such as Hadoop and Spark, 
+Applied machine learning experience in real-world business scenarios, 
+Eagerness to learn and adapt to new technologies and methodologies, 
+Ability to work collaboratively across teams, gather and interpret data, and clearly communicate insights to both technical and non-technical stakeholders, 
+Experience with computer vision is a plus. 
+Hands-on experience with AI-augmented development tools and agentic workflows is a plus. 
+ 
+
+
+
+What You’ll Do 
+
+Understand complex operational and business problems, and take full ownership of turning large datasets into actionable insights using statistical methods and machine learning techniques, 
+ Conduct advanced statistical analyses to identify trends, evaluate performance, and generate data visualizations, 
+Mine and analyze data from internal databases to support product development, optimize marketing strategies, and improve business outcomes, 
+Analyze and extract relevant information from large amounts of historical data to help automate and optimize key processes, 
+Extract meaningful information from historical data to automate and optimize critical processes, 
+Develop monitoring tools and processes to track model performance and ensure data quality, 
+Perform pre- and post-analysis of projects and newly launched features, 
+Collaborate within cross-functional squads — including developers, product managers, and domain experts — to integrate models into production systems and ensure business impact. 
+ Contribute to arabam.com’s Agentic Transformation by actively using AI tools in your daily workflow and helping define best practices around responsible, effective AI adoption. 
+ 
+
+
+
+What Do We Offer: 
+
+Remote-first since March 2020, 
+The development team is consisting of people who are collaborative, sincere, talented and willing to learn and share new things, 
+We are a rapidly growing company, this means a lot of opportunities 
+We support developers to improve their skills, the candidate will have access to online learning courses, 
+We encourage developers to test and implement cutting edge technologies, 
+Access to modern AI tools and opportunities to explore agentic development, 
+We have a medium publication that you can have a look: medium-arabamlabs 
+ 
+
+ 
+
+
+
+arabam.com olarak kişisel verilerinizi nasıl işlediğimiz hakkında detaylı bilgi için lütfen aşağıdaki linkte yer alan Kişisel Verilerin Korunması Kanunu Çerçevesinde Aydınlatma Metnimizi inceleyiniz. 
+
+https://www.arabam.com/kisisel-bilgilerin-korunmasi 
+
+Please check the below link to see our Candidate Privacy Notice for detailed information on how we process your personal data. 
+
+https://www.arabam.com/kisisel-bilgilerin-korunmasi]

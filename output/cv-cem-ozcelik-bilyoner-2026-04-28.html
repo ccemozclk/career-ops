@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cem Ozcelik -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../templates/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../templates/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'DM Sans', sans-serif; font-size: 11px; line-height: 1.5; color: #1a1a2e; background: #ffffff; padding: 0; margin: 0; }
+  .page { width: 100%; max-width: 210mm; margin: 0 auto; padding: 2px 0; }
+  .header { margin-bottom: 20px; }
+  .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; color: #1a1a2e; letter-spacing: -0.02em; margin-bottom: 6px; line-height: 1.1; }
+  .header-gradient { height: 2px; background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%)); border-radius: 1px; margin-bottom: 10px; }
+  .contact-row { display: flex; flex-wrap: wrap; gap: 8px 14px; font-family: 'DM Sans', sans-serif; font-size: 10.5px; line-height: 1.4; color: #555; }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+  .section { margin-bottom: 18px; }
+  .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: hsl(187, 74%, 32%); border-bottom: 1.5px solid #e2e2e2; padding-bottom: 4px; margin-bottom: 10px; line-height: 1.2; }
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .competency-tag { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; color: hsl(187, 74%, 28%); background: hsl(187, 40%, 95%); padding: 4px 10px; border-radius: 3px; border: 1px solid hsl(187, 40%, 88%); }
+  .competency-row { font-size: 10.5px; line-height: 1.7; color: #333; margin-bottom: 2px; }
+  .competency-label { font-weight: 600; color: hsl(187, 74%, 28%); }
+  .job { margin-bottom: 14px; }
+  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .job-company { font-family: 'Space Grotesk', sans-serif; font-size: 12.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job-location { font-size: 10px; color: #888; font-weight: 400; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+  .project { margin-bottom: 12px; }
+  .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(270, 70%, 45%); }
+  .project-badge { font-size: 9px; font-weight: 500; color: hsl(187, 74%, 32%); background: hsl(187, 40%, 95%); padding: 1px 6px; border-radius: 2px; margin-left: 6px; }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+  .edu-item { margin-bottom: 8px; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+  .cert-item { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+  .cert-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .skills-grid { display: flex; flex-direction: column; gap: 5px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+  @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { padding: 0; } }
+  .avoid-break, .job, .project, .edu-item, .cert-item { break-inside: avoid; page-break-inside: avoid; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Cem Ozcelik</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>+90 553 473 4556</span>
+      <span class="separator">|</span>
+      <span>i.cemozcelik@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/cemozcelik">linkedin.com/in/cemozcelik</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/ccemozclk">github.com/ccemozclk</a>
+      <span class="separator">|</span>
+      <span>Istanbul, Turkey</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Senior Data Scientist with 4+ years of experience translating business problems into measurable ML solutions -- from deep EDA and statistical modelling through production deployment. Industrial Engineering background delivers a native cost-function instinct: before touching architecture, I ask what it costs to be wrong in each direction. Proven full lifecycle ownership across manufacturing analytics, financial risk, and supply chain: <strong>15% increase in critical machine availability</strong> via predictive maintenance, <strong>97% Recall</strong> on medical diagnostic models optimized for asymmetric error cost, and an <strong>8h/week operational overtime reduction</strong> through ML-driven supply chain forecasting. Bilingual Turkish-English with demonstrated ability to communicate insights to both technical and non-technical stakeholders.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <div class="competency-row"><span class="competency-label">Skills</span>: Business Problem Translation, Deep EDA, Statistical Modelling, Anomaly Detection, Predictive Modelling, Data Validation &amp; Quality, Stakeholder Communication</div>
+      <div class="competency-row"><span class="competency-label">Tools</span>: Python, SQL, XGBoost, Scikit-learn, TensorFlow, PySpark, Docker, Django / FastAPI, PostgreSQL, MSSQL</div>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Anadolu Pet Akvaryum &amp; Effeffe</span>
+        <span class="job-period">Jan 2026 – Present</span>
+      </div>
+      <div class="job-role">Senior Database Analyst <span class="job-location">· Maltepe, Istanbul</span></div>
+      <ul>
+        <li>Translated supply chain business problems into ML solutions: defined success metrics, built predictive forecasting pipelines, and transferred analytical capabilities to business units -- sustaining an <strong>8-hour weekly reduction in operational overtime</strong>.</li>
+        <li>Scaled a Django reporting application into a centralized ML deployment platform -- serving multiple predictive models via RESTful APIs, with a model registry pattern enabling reusable deployment and knowledge sharing across the team.</li>
+        <li>Developed clear, actionable insights through dashboards and reports for both technical leads and operations stakeholders, driving data-driven decisions on SKU strategy and supply chain routing.</li>
+        <li><strong>Tech:</strong> Python, Django, REST APIs, ML pipelines, Association Rule Mining, PostgreSQL, Docker</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Anadolu Pet Akvaryum &amp; Effeffe</span>
+        <span class="job-period">Sept 2024 – Dec 2025</span>
+      </div>
+      <div class="job-role">IT &amp; Data Analytics Specialist <span class="job-location">· Maltepe, Istanbul</span></div>
+      <ul>
+        <li>Architected and deployed a full-stack internal web application from scratch (Python/Django), establishing the foundational infrastructure for ML model serving and data-driven reporting.</li>
+        <li>Engineered predictive supply chain optimization models using Python and PL/SQL, improving inventory turnover and reducing stockouts through data-validated forecasting.</li>
+        <li>Conducted Route-Level Profitability Analysis with advanced SQL -- defined cost-to-profit ratios that delivered a <strong>3% improvement in overall logistics efficiency</strong>.</li>
+        <li><strong>Tech:</strong> Python, Django, PL/SQL, Oracle, SOLID principles, full-stack deployment</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Birinci Automotive</span>
+        <span class="job-period">Jan 2022 – Sept 2024</span>
+      </div>
+      <div class="job-role">Mid-Level Data Analyst <span class="job-location">· Cayirova, Kocaeli</span></div>
+      <ul>
+        <li>Conducted deep EDA on years of sensor failure logs and machine breakdown records -- mapping breakdown signatures against time-series features to identify candidate predictors for a predictive maintenance model, delivering a <strong>15% weekly increase in critical machine availability</strong> and <strong>15% OEE improvement</strong>.</li>
+        <li>Built a full ML pipeline from data extraction (MSSQL ETL) through feature engineering on machine sensor data, unsupervised anomaly detection modelling, and operational deployment -- replacing reactive, manual workflows.</li>
+        <li>Defined data quality and validation practices for sensor ingestion pipelines; trained shift supervisors on interpreting model alerts, driving operational adoption of ML-based decision making.</li>
+        <li><strong>Tech:</strong> Python, MSSQL, ETL pipelines, unsupervised clustering, anomaly detection, time-series analysis</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Birinci Automotive</span>
+        <span class="job-period">June 2021 – Jan 2022</span>
+      </div>
+      <div class="job-role">Junior Data Analyst <span class="job-location">· Cayirova, Kocaeli</span></div>
+      <ul>
+        <li>Applied EDA and statistical methods to workforce datasets to uncover hidden patterns supporting data-driven HR policy decisions.</li>
+        <li>Designed automated data ingestion pipelines, <strong>improving reporting efficiency by 15%</strong>.</li>
+        <li><strong>Tech:</strong> Python, SQL, statistical analysis, ETL</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div class="project-title">End-to-End Credit Risk Prediction -- MLOps &amp; Full Lifecycle <span class="project-badge">github.com/ccemozclk/Credit-Risk</span></div>
+      <div class="project-desc">Complete ML solution covering the full lifecycle: deep EDA on raw financial data, feature engineering, class-weighted XGBoost optimized for heavy imbalance (63% F1, temporal holdout), and an interactive Django EDA platform for non-technical stakeholders -- fully containerized with Docker. Architecture pattern transfers directly to user behavior anomaly detection and risk modelling.</div>
+      <div class="project-tech">Python · XGBoost · Django · Docker · Feature Engineering · Interactive EDA Platform</div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Scalable Recommendation Engine -- Personalization at Distributed Scale <span class="project-badge">github.com/ccemozclk/Spark-Recommendation-Engine</span></div>
+      <div class="project-desc">End-to-end personalized recommendation system on Apache Spark -- directly analogous to sports platform personalization. K-Means behavioral segmentation + ALS collaborative filtering on Databricks. Tuned for conversion-rate business KPI, not just RMSE. Addresses data skew and Spark-specific scaling challenges at distributed scale.</div>
+      <div class="project-tech">Python · PySpark · Apache Spark · Databricks · K-Means · ALS · Distributed Computing</div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">AI-Powered Medical Diagnostics -- Cost-Function Optimized ML <span class="project-badge">github.com/ccemozclk/Medical-Diagnostics</span></div>
+      <div class="project-desc">End-to-end CNN diagnostic system for pneumonia detection from chest X-rays. Achieved <strong>97% Recall</strong> by explicitly optimizing for asymmetric error cost (False Negative >> False Positive). Grad-CAM heatmaps for model explainability -- identified and corrected a dataset bias invisible without visualization. Transfer Learning on VGG16/ResNet50 for imbalanced medical datasets.</div>
+      <div class="project-tech">Python · TensorFlow-Keras · CNN · Transfer Learning · Grad-CAM · Explainable AI</div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title"><span class="edu-org">Kirikkale University</span> -- B.Sc. Industrial Engineering</span>
+        <span class="edu-year">2016 – 2021</span>
+      </div>
+      <div class="edu-desc">Rigorous foundation in statistical analysis, linear algebra, and optimization. MILP with IBM ILOG CPLEX; Multi-Criteria Decision Making (AHP, TOPSIS). Operations research principles applied directly to ML cost-function design and business problem translation.</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">DataCamp</span> -- Associate Data Scientist Career Track (PySpark, Feature Engineering, Recommendation Engines)</span>
+      <span class="cert-year">2024</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">Miuul</span> -- Data Science &amp; Machine Learning Bootcamp (end-to-end ML lifecycle, 10+ real-world projects)</span>
+      <span class="cert-year">2022</span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <div class="skill-item"><span class="skill-category">Core Languages:</span> Python (Advanced), SQL (Advanced), Bash</div>
+      <div class="skill-item"><span class="skill-category">ML &amp; Statistical Modelling:</span> XGBoost, Scikit-learn, TensorFlow, PyTorch, CNNs, Explainable AI (Grad-CAM), Transfer Learning, h2o.ai</div>
+      <div class="skill-item"><span class="skill-category">Big Data:</span> Apache Spark (PySpark), Databricks, Distributed Computing</div>
+      <div class="skill-item"><span class="skill-category">Deployment &amp; MLOps:</span> Docker, Django, FastAPI, Flask, REST APIs, Git, Linux, End-to-End ML Deployment</div>
+      <div class="skill-item"><span class="skill-category">Data Engineering:</span> ETL Pipelines, PostgreSQL, MSSQL, Oracle, Pandas, NumPy, Interactive EDA platforms (Django)</div>
+      <div class="skill-item"><span class="skill-category">Cloud:</span> AWS (EC2, S3)</div>
+      <div class="skill-item"><span class="skill-category">Languages:</span> Turkish (Native), English (Fluent), Spanish (Basic)</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

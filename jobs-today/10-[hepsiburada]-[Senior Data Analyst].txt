@@ -1,0 +1,87 @@
+Company: [hepsiburada]
+Position: [Senior Data Analyst]
+URL: [https://www.linkedin.com/jobs/view/4411393243/]
+Manual Score: 5/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+At Hepsiburada, we are driven by our mission to improve people's lives by developing innovative products and services. Prioritizing customer satisfaction, we offer over 280 million products across more than 30 categories. Through our marketplace model, we bring together over 100,000 businesses. With Türkiye’s and the region's largest Smart Operations Center, industry-leading R&D initiatives, and innovative solutions, we contribute significantly to the growth of the e-commerce ecosystem. For the past two years, we have proudly held the title of Turkey's most recommended e-commerce platform.
+
+
+
+Through our innovative services like HepsiJET, Hepsipay, HepsiLojistik, HepsiAd, and Hepsiburada Global, we create value for all our stakeholders. Committed to harnessing technology for social benefit, our “Technology Empowerment for Women Entrepreneurs” program has connected thousands of women entrepreneurs with e-commerce, supporting their growth. Our goal is to leverage digitalization and e-commerce to enable greater economic participation.
+
+
+
+With 25 years of experience driven by innovation and entrepreneurship, we proudly continue our journey as “Türkiye’s Hepsiburada” and the first and only Turkish company listed on NASDAQ, the world's leading technology exchange.
+
+
+
+For our colleagues, we offer a work environment that supports creating together and adding more meaning to our work. As a team full of opportunities, we are happy to develop, produce and succeed together.
+
+
+
+If you want to be part of a team that creates value for everyone and makes life easier through innovative products and services—and contribute to exciting success stories—the future starts here.
+
+
+
+We’re looking for a Senior Data Analyst;
+
+In this role, you will work closely with business and product teams to support data-driven decision-making by analyzing large-scale e-commerce data and generating actionable insights. You will evaluate merchant performance, manage KPI tracking and dashboards, and translate complex analyses into clear business insights for stakeholders.
+
+You will collaborate with Technology Product Teams, BI Developers, and Data Engineers to deliver both fast analytical solutions for immediate business needs and scalable, high-quality analytics solutions that create long-term impact across the organization.
+
+
+
+Responsibilities:
+
+Act as a strategic data partner for business and product teams by identifying key problems and driving data-driven solutions.
+Analyze large-scale e-commerce data to generate insights that inform business decisions and improve performance.
+Evaluate merchant behavior and performance across business and product touchpoints to identify growth opportunities and risks.
+Develop and maintain data models, dashboards, and analytical outputs to track KPIs and enable visibility.
+Translate complex analyses into clear, actionable insights for technical and non-technical stakeholders.
+Collaborate cross-functionally to execute data initiatives and ensure measurable impact.
+Ensure data quality and apply best practices to maintain a reliable analytics environment.
+
+
+Basic Qualifications:
+
+Bachelor’s degree in a quantitative or relevant field.
+4+ years of experience in data analytics or business intelligence.
+Strong SQL skills and experience with large, complex datasets.
+Solid understanding of statistical concepts and their application in business and product contexts.
+Strong analytical thinking with the ability to translate data into actionable insights.
+Experience working with business and product teams in cross-functional environments.
+Experience in e-commerce, marketplace, telecom, or banking is a plus.
+Commercial mindset with an understanding of business dynamics.
+
+
+Preferred Qualifications:
+
+Experience in A/B testing and funnel analysis.
+Experience working with big data environments (preferably BigQuery).
+Experience with BI and visualization tools (e.g., Looker, Qlik).
+Basic knowledge of machine learning concepts.
+Experience working in Agile environments.
+Familiarity with workflow orchestration tools (e.g., Airflow) and version control systems (e.g., GitLab).
+
+
+https://medium.com/hepsiburadatech
+
+
+
+https://stackshare.io/hepsiburada
+
+
+
+
+
+Bu ilan sebebiyle yapacağınız başvurular aracılığıyla toplanacak kişisel verileriniz veri sorumlusu D-Market Elektronik Hizmetler ve Ticaret A.Ş (“Hepsiburada”) tarafından 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) ve ilgili mevzuat kapsamında iş başvuru süreçlerinin yürütülmesi amacıyla otomatik yollarla işlenecektir.Aydınlatma Metni’ne https://www.hepsiburada.com/kisisel-verilerin-korunmasi linkinden ulaşabilirsiniz.]

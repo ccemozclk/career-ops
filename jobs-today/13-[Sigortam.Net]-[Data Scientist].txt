@@ -1,0 +1,63 @@
+Company: [Sigortam.Net]
+Position: [Senior Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4399520585]
+Manual Score: 4/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+We are embarking on an exciting journey at Sigortam.net! As the first and largest insurance marketplace in Turkey, Sigortam.net currently cooperates with 25+ insurance companies to serve 10+ million customers and this is just the beginning. Our dream is to become the leading tech company in the region, which brings a positive impact to the insurance sector through better customer experience driven by technology.
+
+
+We strongly believe in the value of putting people first – our colleagues and customers – and are rebuilding the organization with exceptional talent. We are a team of empowered individuals with a growth mindset and desire to learn in a fast-paced environment. We are looking to welcome colleagues who will take full ownership, challenge the status-quo, persist in the face of setbacks and test new things. Fast and data-driven decision-making is part of our DNA: We believe in the value of making fast decisions, learning and improving.
+
+
+At Sigortam.net, we succeed or fail as a team. Our colleagues do not feel threatened by the success of others, but rather find inspiration in them. Humility is a "must have" quality we seek in every candidate we meet. If you are up for this challenge and exciting journey, come and join us!
+
+
+Sigortam.net is currently seeking a Senior Data Scientist to join its Data Squad. In this role, you will work on building and improving data-driven products, machine learning models, and AI-powered solutions that directly support our core business. This position requires a blend of technical expertise and strategic thinking, with a strong focus on leveraging data science and AI-driven insights to enhance business outcomes.
+
+
+The Data Squad at Sigortam.net is responsible for shaping and executing the company’s data, analytics, and AI strategy. Our mission is to enable data-driven decision-making across the organization with a strong product and customer focus, while increasing data and AI maturity and building scalable, reliable data products. 
+
+
+
+We are looking for a Senior Data Scientist to join our team and contribute to our data-driven initiatives.
+
+
+Your role: 
+Conduct exploratory data analysis (EDA) to gain deep insights into the dataset, enabling effective evaluation and drawing meaningful conclusions. 
+Identify and address complex data needs, working closely with cross-functional teams to understand business requirements, uncover customer issues, and propose viable solutions. 
+Take ownership of the end-to-end data analytics process, from problem comprehension to proposing and implementing effective solutions, working collaboratively with product teams, growth hackers, engineers, and other stakeholders. 
+Develop and maintain machine learning models, ensuring they remain accurate and relevant by monitoring performance, detecting drift, and retraining when necessary. 
+Implement and oversee MLOps processes, including model deployment, versioning, and automation, to ensure models are efficiently integrated into production environments. 
+Design and deploy LLM-powered solutions such as retrieval-augmented generation pipelines (RAG), document Q&A systems, and customer service chatbots that drive internal efficiency and enhance customer experience. 
+Stay abreast of the latest trends and advancements in data science, machine learning, and generative AI within the insurance industry, continuously seeking opportunities to apply cutting-edge techniques to our projects.
+
+
+Your profile: 
+Bachelor’s degree in a quantitative field (e.g., Computer Science, Engineering, Statistics, Mathematics) or a related discipline; advanced degree is a plus 
+4 + years of experience in data science, machine learning, or a related field 
+Strong proficiency in Python and SQL is essential, with hands-on experience in data manipulation (Pandas, NumPy), machine learning (Scikit-learn), and working with large-scale datasets. 
+A background in statistical analysis and data mining is necessary, demonstrating strong skills in data-driven thinking 
+A strong understanding of modelling techniques and statistical concepts 
+Hands-on experience with LLM ecosystems (OpenAI, Hugging Face, LangChain, vector databases such as Pinecone or Milvus) and designing production-grade GenAI solutions (RAG, orchestration, evaluation, prompt strategies) is a strong plus. 
+Experience in building and maintaining machine learning models, including data collection, preprocessing, feature engineering, model selection, hyperparameter tuning, evaluation, and deployment 
+Familiarity with MLOps practices, such as model monitoring, versioning, automated retraining, and deployment pipelines. Experience with MLflow for experiment tracking, model management, and lifecycle automation is a plus 
+Familiarity with data visualization tools such as Power BI, Tableau, or visualization libraries like matplotlib, seaborn, or plotly 
+Excellent communication skills, capable of simplifying complex information into actionable and executable points for both C-level executives and business units 
+Ability to extract valuable insights from data and adeptly craft engaging narratives that truly resonate with business stakeholders through powerful storytelling 
+Familiarity with Git and experience working in agile environments. 
+Open-minded and curious about new technologies, tools, and analytical approaches. 
+
+
+
+
+Your personal data will be processed in accordance with the law and as specified in the clarification text. You can access the lighting text from the https://www.sigortam.net/calisan-adayi-aydinlatma-metni/ link.]

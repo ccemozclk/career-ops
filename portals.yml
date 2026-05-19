@@ -1,0 +1,953 @@
+# Portal Scanner Configuration
+# Customized for Cem Ozcelik -- Senior Data Scientist / ML Engineer / Senior Data Analyst
+#
+# Strategy (3 levels):
+#   1. Playwright -> careers_url of each company (real-time, reliable)
+#   2. Greenhouse API -> structured JSON (fast, Greenhouse-only)
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+#
+# IMPORTANT: Each company in tracked_companies MUST have careers_url.
+#   Prefer the BRANDED company careers URL whenever available; use ATS-hosted URL only as fallback.
+
+# -- Title filter --
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    - "Senior Data Scientist"
+    - "Staff Data Scientist"
+    - "Principal Data Scientist"
+    - "Lead Data Scientist"
+    - "Senior ML Engineer"
+    - "Staff ML Engineer"
+    - "Senior Machine Learning Engineer"
+    - "Data Scientist"
+    - "ML Engineer"
+    - "Machine Learning Engineer"
+    - "MLOps"
+    - "ML Platform"
+    - "Applied Scientist"
+    - "Applied ML"
+    - "Computer Vision"
+    - "Deep Learning"
+    - "AI Engineer"
+    - "Data Engineer"
+    - "Senior Data Analyst"
+    - "Analytics Engineer"
+    - "Risk Scientist"
+    - "Fraud Scientist"
+    - "Quantitative Analyst"
+    - "Datenwissenschaftler"
+    - "Maschinelles Lernen"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Trainee"
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+    - "Product Manager"
+    - "Customer Success"
+    - "Account Executive"
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head of"
+    - "Director"
+
+# -- Search queries --
+# Each query triggers a WebSearch. The scanner extracts title, URL, and company.
+
+search_queries:
+
+  # -- Ashby -- DS/ML/DA roles --
+
+  - name: Ashby -- Senior Data Scientist
+    query: 'site:jobs.ashbyhq.com "Senior Data Scientist" OR "Staff Data Scientist" OR "Principal Data Scientist" remote'
+    enabled: true
+
+  - name: Ashby -- ML Engineer
+    query: 'site:jobs.ashbyhq.com "ML Engineer" OR "Machine Learning Engineer" OR "MLOps Engineer" remote senior'
+    enabled: true
+
+  - name: Ashby -- Applied Scientist
+    query: 'site:jobs.ashbyhq.com "Applied Scientist" OR "Research Scientist" OR "Applied ML" remote'
+    enabled: true
+
+  - name: Ashby -- Data Analyst Senior
+    query: 'site:jobs.ashbyhq.com "Senior Data Analyst" OR "Lead Data Analyst" OR "Analytics Engineer" remote'
+    enabled: true
+
+  # -- Greenhouse -- DS/ML/DA roles --
+
+  - name: Greenhouse -- Senior Data Scientist
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Senior Data Scientist" OR "Staff Data Scientist" remote'
+    enabled: true
+
+  - name: Greenhouse -- ML Engineer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "ML Engineer" OR "Machine Learning Engineer" OR "MLOps" remote senior'
+    enabled: true
+
+  - name: Greenhouse -- Computer Vision / Deep Learning
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Computer Vision" OR "Deep Learning" "Scientist" OR "Engineer" remote'
+    enabled: true
+
+  - name: Greenhouse -- Fintech Risk & Fraud DS
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Risk Scientist" OR "Fraud Scientist" OR "Credit Risk" "Data Scientist" remote'
+    enabled: true
+
+  # -- Workable -- DS/ML --
+
+  - name: Workable -- Senior DS & ML
+    query: 'site:apply.workable.com "Senior Data Scientist" OR "ML Engineer" OR "Machine Learning" remote'
+    enabled: true
+
+  # -- Lever -- DS/ML --
+
+  - name: Lever -- Senior Data Scientist
+    query: 'site:jobs.lever.co "Senior Data Scientist" OR "ML Engineer" OR "Machine Learning Engineer" remote'
+    enabled: true
+
+  # -- Remote boards -- DS/ML/DA --
+
+  - name: Remotive -- Senior DS & ML
+    query: 'site:remotive.com "Data Scientist" OR "ML Engineer" OR "Machine Learning" senior remote Europe OR US'
+    enabled: true
+
+  - name: WeWorkRemotely -- DS & ML
+    query: 'site:weworkremotely.com "Data Scientist" OR "Machine Learning" OR "ML Engineer" senior'
+    enabled: true
+
+  - name: Working Nomads -- DS & ML
+    query: 'site:workingnomads.com "Data Scientist" OR "ML Engineer" OR "Machine Learning Engineer"'
+    enabled: true
+
+  - name: RemoteOK -- DS & ML
+    query: 'site:remoteok.com "Data Scientist" OR "ML Engineer" OR "Machine Learning" senior remote'
+    enabled: true
+
+  - name: Himalayas -- Senior DS & ML
+    query: 'site:himalayas.app "Senior Data Scientist" OR "ML Engineer" OR "Machine Learning Engineer" Europe OR US OR remote'
+    enabled: true
+
+  # -- Specialized DS/ML boards --
+
+  - name: ai-jobs.net -- Data Scientist
+    query: 'site:ai-jobs.net "Data Scientist" OR "ML Engineer" OR "Applied Scientist" remote Europe OR US'
+    enabled: true
+
+  - name: EU Data Jobs -- DS/ML Europe
+    query: 'site:eudatajobs.com "Data Scientist" OR "ML Engineer" OR "Machine Learning" remote Europe OR US'
+    enabled: true
+
+  - name: YC Jobs -- DS & ML
+    query: 'site:workatastartup.com "Data Scientist" OR "ML Engineer" OR "Machine Learning" remote Europe OR US'
+    enabled: true
+
+  - name: Wellfound -- DS/ML
+    query: 'site:wellfound.com "Senior Data Scientist" OR "ML Engineer" remote'
+    enabled: true
+
+  - name: Welcome to the Jungle -- DS/ML
+    query: 'site:welcometothejungle.com "Data Scientist" OR "Machine Learning" remote'
+    enabled: true
+
+  # -- Domain-specific queries --
+
+  - name: Industrial AI -- DS/ML roles
+    query: '"predictive maintenance" OR "industrial AI" OR "manufacturing" "Data Scientist" OR "ML Engineer" remote OR Europe OR US'
+    enabled: true
+
+  - name: Fintech -- Risk & Fraud DS
+    query: '"fraud detection" OR "credit risk" OR "financial risk" "Data Scientist" OR "ML Engineer" remote OR Europe OR US senior'
+    enabled: true
+
+  - name: Healthcare AI -- DS/Computer Vision
+    query: '"medical AI" OR "healthcare AI" OR "computer vision" "Data Scientist" OR "ML Engineer" OR "Research Scientist" remote OR Europe OR US'
+    enabled: true
+
+  # -- Turkey local market --
+  # LinkedIn site: search not reliable -- disabled
+
+  - name: LinkedIn -- Turkey Senior DS
+    query: 'site:linkedin.com/jobs "Senior Data Scientist" OR "ML Engineer" Istanbul OR Turkey remote'
+    enabled: false
+
+  - name: LinkedIn -- Turkey ML Engineer
+    query: 'site:linkedin.com/jobs "Machine Learning Engineer" OR "MLOps" OR "Veri Bilimcisi" Istanbul OR Turkey'
+    enabled: false
+
+  # -- HN Who's Hiring -- DS/ML --
+
+  - name: HN Who's Hiring -- DS & ML remote
+    query: 'site:news.ycombinator.com "Data Scientist" OR "ML Engineer" OR "Machine Learning" remote'
+    enabled: true
+
+# -- Tracked companies --
+# scan_method: playwright (default), websearch, greenhouse_api
+# For Greenhouse companies, add api: field for faster structured JSON access.
+
+tracked_companies:
+
+  # ============================================================
+  # -- AI LABS & LLM PROVIDERS --
+  # ============================================================
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Data Scientist" OR "ML Engineer" OR "Applied Scientist"'
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "AI/LLM provider. Toronto + remote. DS/ML research roles."
+    enabled: true
+
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    notes: "Paris. European AI lab. Research Scientist / ML Engineer roles."
+    enabled: true
+
+  - name: Hugging Face
+    careers_url: https://apply.workable.com/huggingface/
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com/huggingface'
+    notes: "Paris / NYC / Remote. ML hub & open-source models."
+    enabled: true
+
+  # ============================================================
+  # -- VOICE AI (kept -- strong DS/ML signal) --
+  # ============================================================
+
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/elevenlabs'
+    notes: "Voice AI TTS leader. Has DS/ML roles."
+    enabled: true
+
+  - name: Deepgram
+    careers_url: https://jobs.ashbyhq.com/deepgram
+    scan_method: websearch
+    scan_query: 'site:deepgram.com/careers OR site:jobs.ashbyhq.com/deepgram'
+    notes: "STT/TTS APIs. DS/ML/Speech research roles."
+    enabled: true
+
+  - name: Speechmatics
+    careers_url: https://job-boards.greenhouse.io/speechmatics
+    api: https://boards-api.greenhouse.io/v1/boards/speechmatics/jobs
+    notes: "Cambridge UK. Speech recognition platform. DS/ML roles."
+    enabled: true
+
+  - name: Hume AI
+    careers_url: https://job-boards.greenhouse.io/humeai
+    api: https://boards-api.greenhouse.io/v1/boards/humeai/jobs
+    notes: "NYC. Empathic voice AI. Research Scientist roles."
+    enabled: true
+
+  - name: Sierra
+    careers_url: https://jobs.ashbyhq.com/sierra
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/sierra "Data Scientist" OR "ML Engineer" OR "Applied"'
+    notes: "Bret Taylor (ex-CEO Salesforce). AI customer agents. Applied DS roles."
+    enabled: true
+
+  # ============================================================
+  # -- VOICE AI / CONTACT CENTER (disabled -- few DS/ML roles) --
+  # ============================================================
+
+  - name: PolyAI
+    careers_url: https://job-boards.eu.greenhouse.io/polyai
+    api: https://boards-api.greenhouse.io/v1/boards/polyai/jobs
+    notes: "UK. Voice AI for enterprise contact centers."
+    enabled: false
+
+  - name: Parloa
+    careers_url: https://job-boards.eu.greenhouse.io/parloa
+    api: https://boards-api.greenhouse.io/v1/boards/parloa/jobs
+    notes: "Berlin EMEA. Voice AI enterprise."
+    enabled: false
+
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    api: https://boards-api.greenhouse.io/v1/boards/intercom/jobs
+    notes: "Dublin EMEA. Fin AI agent."
+    enabled: false
+
+  - name: Vapi
+    careers_url: https://jobs.ashbyhq.com/vapi
+    notes: "Voice AI infrastructure."
+    enabled: false
+
+  - name: Bland AI
+    careers_url: https://jobs.ashbyhq.com/bland
+    notes: "Voice phone agents."
+    enabled: false
+
+  - name: Ada
+    careers_url: https://job-boards.greenhouse.io/ada
+    notes: "Toronto + remote. AI customer service."
+    enabled: false
+
+  - name: LivePerson
+    careers_url: https://liveperson.com/company/careers
+    notes: "Remote EMEA. Conversational AI enterprise."
+    enabled: false
+
+  - name: Talkdesk
+    careers_url: https://www.talkdesk.com/careers
+    notes: "Lisbon. Contact center AI."
+    enabled: false
+
+  - name: Dialpad
+    careers_url: https://www.dialpad.com/careers
+    notes: "Voice AI for business comms."
+    enabled: false
+
+  - name: Gong
+    careers_url: https://www.gong.io/careers
+    notes: "Revenue intelligence with voice AI."
+    enabled: false
+
+  - name: Genesys
+    careers_url: https://www.genesys.com/careers
+    notes: "Contact center cloud + AI."
+    enabled: false
+
+  - name: Cognigy
+    careers_url: https://careers.cognigy.com
+    notes: "Dusseldorf EMEA. Conversational AI enterprise."
+    enabled: false
+
+  - name: Lindy
+    careers_url: https://jobs.ashbyhq.com/lindy
+    notes: "AI agent management platform."
+    enabled: false
+
+  - name: Decagon
+    careers_url: https://jobs.ashbyhq.com/decagon
+    notes: "AI customer support agents."
+    enabled: false
+
+  # ============================================================
+  # -- MLOPS & ML PLATFORMS --
+  # ============================================================
+
+  - name: Weights & Biases
+    careers_url: https://jobs.lever.co/wandb
+    notes: "MLOps / experiment tracking platform. Strong DS/ML engineering roles."
+    enabled: true
+
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    notes: "Lakehouse + MLflow platform. Large DS/ML/data engineering org."
+    enabled: true
+
+  - name: DataRobot
+    careers_url: https://job-boards.greenhouse.io/datarobot
+    api: https://boards-api.greenhouse.io/v1/boards/datarobot/jobs
+    notes: "Enterprise AutoML platform. Applied DS and ML Engineer roles."
+    enabled: true
+
+  - name: H2O.ai
+    careers_url: https://job-boards.greenhouse.io/h2oai
+    api: https://boards-api.greenhouse.io/v1/boards/h2oai/jobs
+    notes: "AutoML / enterprise AI platform. DS and ML roles."
+    enabled: true
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    notes: "US/London. DS/ML roles. Strong on data engineering + applied ML."
+    enabled: true
+
+  - name: Lakera
+    careers_url: https://jobs.ashbyhq.com/lakera.ai
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/lakera.ai'
+    notes: "Zurich CH / SF. AI security & guardrails. Has ML/DS roles."
+    enabled: true
+
+  # ============================================================
+  # -- DISABLED: DEV TOOLS / NO-CODE / AUTOMATION --
+  # ============================================================
+
+  - name: Retool
+    careers_url: https://retool.com/careers
+    enabled: false
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    enabled: false
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    enabled: false
+
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    enabled: false
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    enabled: false
+
+  - name: RunPod
+    careers_url: https://job-boards.greenhouse.io/runpod
+    api: https://boards-api.greenhouse.io/v1/boards/runpod/jobs
+    enabled: false
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    enabled: false
+
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com
+    enabled: false
+
+  - name: Twilio
+    careers_url: https://www.twilio.com/en-us/company/jobs
+    enabled: false
+
+  - name: Langfuse
+    careers_url: https://langfuse.com/careers
+    enabled: false
+
+  - name: n8n
+    careers_url: https://jobs.ashbyhq.com/n8n
+    enabled: false
+
+  - name: Zapier
+    careers_url: https://jobs.ashbyhq.com/zapier
+    enabled: false
+
+  - name: Make.com
+    careers_url: https://www.make.com/en/careers
+    enabled: false
+
+  - name: Boomi
+    careers_url: https://job-boards.greenhouse.io/boomilp
+    api: https://boards-api.greenhouse.io/v1/boards/boomilp/jobs
+    enabled: false
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    enabled: false
+
+  - name: Pinecone
+    careers_url: https://jobs.ashbyhq.com/pinecone
+    enabled: false
+
+  - name: Clay Labs
+    careers_url: https://jobs.ashbyhq.com/claylabs
+    enabled: false
+
+  - name: Hightouch
+    careers_url: https://job-boards.greenhouse.io/hightouch
+    api: https://boards-api.greenhouse.io/v1/boards/hightouch/jobs
+    enabled: false
+
+  - name: WorkOS
+    careers_url: https://jobs.ashbyhq.com/workos
+    enabled: false
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    enabled: false
+
+  - name: Resend
+    careers_url: https://jobs.ashbyhq.com/resend
+    enabled: false
+
+  - name: Clerk
+    careers_url: https://jobs.ashbyhq.com/clerk
+    enabled: false
+
+  - name: Inngest
+    careers_url: https://jobs.ashbyhq.com/inngest
+    enabled: false
+
+  - name: PlanetScale
+    careers_url: https://job-boards.greenhouse.io/planetscale
+    api: https://boards-api.greenhouse.io/v1/boards/planetscale/jobs
+    enabled: false
+
+  - name: Zep AI
+    careers_url: https://www.getzep.com/careers
+    enabled: false
+
+  - name: Maxim AI
+    careers_url: https://www.getmaxim.ai/careers
+    enabled: false
+
+  - name: Runway
+    careers_url: https://job-boards.greenhouse.io/runwayml
+    api: https://boards-api.greenhouse.io/v1/boards/runwayml/jobs
+    enabled: false
+
+  - name: Contentful
+    careers_url: https://job-boards.greenhouse.io/contentful
+    api: https://boards-api.greenhouse.io/v1/boards/contentful/jobs
+    enabled: false
+
+  - name: Pigment
+    careers_url: https://jobs.lever.co/pigment
+    enabled: false
+
+  - name: Lovable
+    careers_url: https://jobs.ashbyhq.com/lovable
+    enabled: false
+
+  - name: Legora
+    careers_url: https://jobs.ashbyhq.com/legora
+    enabled: false
+
+  - name: Amplemarket
+    careers_url: https://job-boards.greenhouse.io/amplemarket
+    api: https://boards-api.greenhouse.io/v1/boards/amplemarket/jobs
+    enabled: false
+
+  - name: Attio
+    careers_url: https://jobs.ashbyhq.com/attio
+    enabled: false
+
+  - name: Tinybird
+    careers_url: https://jobs.ashbyhq.com/tinybird
+    enabled: false
+
+  - name: Travelperk
+    careers_url: https://jobs.ashbyhq.com/travelperk
+    enabled: false
+
+  - name: Forto
+    careers_url: https://jobs.lever.co/forto
+    enabled: false
+
+  - name: Qonto
+    careers_url: https://jobs.lever.co/qonto
+    enabled: false
+
+  - name: SumUp
+    careers_url: https://job-boards.greenhouse.io/sumup
+    api: https://boards-api.greenhouse.io/v1/boards/sumup/jobs
+    enabled: false
+
+  - name: Factorial
+    careers_url: https://job-boards.greenhouse.io/factorial
+    enabled: false
+
+  - name: Clarity AI
+    careers_url: https://jobs.lever.co/clarity-ai
+    enabled: false
+
+  - name: Later
+    careers_url: https://job-boards.greenhouse.io/later
+    api: https://boards-api.greenhouse.io/v1/boards/later/jobs
+    enabled: false
+
+  - name: Safari AI
+    careers_url: https://job-boards.greenhouse.io/safariai
+    api: https://boards-api.greenhouse.io/v1/boards/safariai/jobs
+    enabled: false
+
+  - name: Hootsuite
+    careers_url: https://job-boards.greenhouse.io/hootsuite
+    api: https://boards-api.greenhouse.io/v1/boards/hootsuite/jobs
+    enabled: false
+
+  - name: Klue
+    careers_url: https://jobs.ashbyhq.com/klue
+    enabled: false
+
+  - name: Glacis AI
+    careers_url: https://jobs.ashbyhq.com/glacis-ai
+    enabled: false
+
+  - name: Sanctuary AI
+    careers_url: https://jobs.lever.co/sanctuary
+    enabled: false
+
+  - name: Semios
+    careers_url: https://apply.workable.com/semios/
+    enabled: false
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    enabled: false
+
+  # ============================================================
+  # -- FINTECH / FINANCIAL RISK --
+  # ============================================================
+
+  - name: Wise (TransferWise)
+    careers_url: https://job-boards.greenhouse.io/wise
+    api: https://boards-api.greenhouse.io/v1/boards/wise/jobs
+    notes: "London / Tallinn / remote. Fintech. Strong DS/ML team (fraud, FX risk, personalization)."
+    enabled: true
+
+  - name: Revolut
+    careers_url: https://jobs.lever.co/revolut
+    notes: "London / Krakow / remote. Fintech unicorn. Large DS/ML org -- fraud, credit, risk."
+    enabled: true
+
+  - name: Klarna
+    careers_url: https://job-boards.greenhouse.io/klarna
+    api: https://boards-api.greenhouse.io/v1/boards/klarna/jobs
+    notes: "Stockholm / remote. BNPL fintech. DS/ML for credit risk, fraud, personalization."
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://stripe.com/jobs
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Data Scientist" OR "ML Engineer" OR "Machine Learning"'
+    notes: "Remote-friendly. Large ML org -- fraud, revenue optimization, financial intelligence."
+    enabled: true
+
+  - name: Monzo
+    careers_url: https://job-boards.greenhouse.io/monzo
+    api: https://boards-api.greenhouse.io/v1/boards/monzo/jobs
+    notes: "London UK. Digital bank. DS/ML for fraud, risk scoring, personalization."
+    enabled: true
+
+  - name: Adyen
+    careers_url: https://jobs.lever.co/adyen
+    notes: "Amsterdam / EMEA. Payments platform. DS/ML for fraud and financial intelligence."
+    enabled: true
+
+  - name: N26
+    careers_url: https://job-boards.greenhouse.io/n26
+    api: https://boards-api.greenhouse.io/v1/boards/n26/jobs
+    notes: "Berlin / Barcelona. Mobile bank. ML & risk DS roles."
+    enabled: true
+
+  - name: Trade Republic
+    careers_url: https://job-boards.greenhouse.io/traderepublicbank
+    api: https://boards-api.greenhouse.io/v1/boards/traderepublicbank/jobs
+    notes: "Berlin / London / Paris. Neobroker. Platform & data DS roles."
+    enabled: true
+
+  # ============================================================
+  # -- HEALTHCARE & MEDICAL AI --
+  # ============================================================
+
+  - name: Viz.ai
+    careers_url: https://job-boards.greenhouse.io/vizai
+    api: https://boards-api.greenhouse.io/v1/boards/vizai/jobs
+    notes: "SF/remote. AI-powered medical imaging and clinical decision support. DS/CV roles."
+    enabled: true
+
+  - name: Recursion Pharmaceuticals
+    careers_url: https://job-boards.greenhouse.io/recursionpharmaceuticals
+    api: https://boards-api.greenhouse.io/v1/boards/recursionpharmaceuticals/jobs
+    notes: "Salt Lake City / Toronto / remote. AI drug discovery. DS/CV/ML roles."
+    enabled: true
+
+  - name: PathAI
+    careers_url: https://job-boards.greenhouse.io/pathai
+    api: https://boards-api.greenhouse.io/v1/boards/pathai/jobs
+    notes: "Boston / remote. AI-powered pathology. Strong CV/DL/ML roles."
+    enabled: true
+
+  # ============================================================
+  # -- INDUSTRIAL AI & MANUFACTURING --
+  # ============================================================
+
+  - name: Augury
+    careers_url: https://job-boards.greenhouse.io/augury
+    api: https://boards-api.greenhouse.io/v1/boards/augury/jobs
+    notes: "NY / remote. Machine health AI -- predictive maintenance for industrial equipment."
+    enabled: true
+
+  - name: Uptake
+    careers_url: https://job-boards.greenhouse.io/uptake
+    api: https://boards-api.greenhouse.io/v1/boards/uptake/jobs
+    notes: "Chicago / remote. Industrial AI -- predictive analytics for heavy equipment."
+    enabled: true
+
+  - name: SparkCognition
+    careers_url: https://job-boards.greenhouse.io/sparkcognition
+    api: https://boards-api.greenhouse.io/v1/boards/sparkcognition/jobs
+    notes: "Austin / remote. Industrial AI -- predictive maintenance, manufacturing, energy."
+    enabled: true
+
+  # ============================================================
+  # -- SUPPLY CHAIN AI --
+  # ============================================================
+
+  - name: Kinaxis
+    careers_url: https://job-boards.greenhouse.io/kinaxis
+    api: https://boards-api.greenhouse.io/v1/boards/kinaxis/jobs
+    notes: "Ottawa / remote. AI-powered supply chain planning platform. DS/ML roles."
+    enabled: true
+
+  - name: FourKites
+    careers_url: https://job-boards.greenhouse.io/fourkites
+    api: https://boards-api.greenhouse.io/v1/boards/fourkites/jobs
+    notes: "Chicago / remote. Real-time supply chain visibility + ML. DS/ML roles."
+    enabled: true
+
+  # ============================================================
+  # -- DACH AI ECOSYSTEM --
+  # ============================================================
+
+  - name: Aleph Alpha
+    careers_url: https://jobs.ashbyhq.com/AlephAlpha
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/AlephAlpha'
+    notes: "Heidelberg DE. Sovereign European LLM provider. DS/ML/NLP roles."
+    enabled: true
+
+  - name: DeepL
+    careers_url: https://jobs.ashbyhq.com/DeepL
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/DeepL'
+    notes: "Cologne DE. Translation & language AI. NLP/ML roles."
+    enabled: true
+
+  - name: Black Forest Labs
+    careers_url: https://job-boards.greenhouse.io/blackforestlabs
+    api: https://boards-api.greenhouse.io/v1/boards/blackforestlabs/jobs
+    notes: "Freiburg DE / SF. FLUX image models. CV/ML research roles."
+    enabled: true
+
+  - name: Helsing
+    careers_url: https://job-boards.greenhouse.io/helsing
+    api: https://boards-api.greenhouse.io/v1/boards/helsing/jobs
+    notes: "Munich / Berlin / London / Paris. Defence AI unicorn. ML roles."
+    enabled: true
+
+  - name: Celonis
+    careers_url: https://job-boards.greenhouse.io/celonis
+    api: https://boards-api.greenhouse.io/v1/boards/celonis/jobs
+    notes: "Munich / NYC. Process intelligence. Applied AI / DS roles."
+    enabled: true
+
+  - name: GetYourGuide
+    careers_url: https://job-boards.greenhouse.io/getyourguide
+    api: https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs
+    notes: "Berlin. Travel marketplace. ML & data platform DS roles."
+    enabled: true
+
+  - name: HelloFresh
+    careers_url: https://job-boards.greenhouse.io/hellofresh
+    api: https://boards-api.greenhouse.io/v1/boards/hellofresh/jobs
+    notes: "Berlin. Meal kit unicorn. Large data/ML org."
+    enabled: true
+
+  # ============================================================
+  # -- SWITZERLAND AI --
+  # ============================================================
+
+  - name: Scandit
+    careers_url: https://job-boards.greenhouse.io/scandit
+    api: https://boards-api.greenhouse.io/v1/boards/scandit/jobs
+    notes: "Zurich CH. Computer vision / smart data capture. CV/ML roles."
+    enabled: true
+
+  - name: Cradle
+    careers_url: https://jobs.ashbyhq.com/cradlebio
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/cradlebio'
+    notes: "Zurich CH / Amsterdam. AI-guided protein design. ML researcher roles."
+    enabled: true
+
+  # ============================================================
+  # -- FRANCE AI --
+  # ============================================================
+
+  - name: Photoroom
+    careers_url: https://jobs.ashbyhq.com/photoroom
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/photoroom'
+    notes: "Paris FR. AI photo editor. CV/ML roles."
+    enabled: true
+
+  # ============================================================
+  # -- UK AI --
+  # ============================================================
+
+  - name: Wayve
+    careers_url: https://job-boards.greenhouse.io/wayve
+    api: https://boards-api.greenhouse.io/v1/boards/wayve/jobs
+    notes: "London UK. Embodied AI for self-driving. ML & robotics roles."
+    enabled: true
+
+  - name: Isomorphic Labs
+    careers_url: https://job-boards.greenhouse.io/isomorphiclabs
+    api: https://boards-api.greenhouse.io/v1/boards/isomorphiclabs/jobs
+    notes: "London / Lausanne. DeepMind spin-out for drug discovery AI. DS/ML research."
+    enabled: true
+
+  - name: PhysicsX
+    careers_url: https://job-boards.greenhouse.io/physicsx
+    api: https://boards-api.greenhouse.io/v1/boards/physicsx/jobs
+    notes: "London UK. Physics-informed ML for engineering. DS/ML roles."
+    enabled: true
+
+  - name: Stability AI
+    careers_url: https://job-boards.greenhouse.io/stabilityai
+    api: https://boards-api.greenhouse.io/v1/boards/stabilityai/jobs
+    notes: "London / SF. Generative AI image/video research lab. ML research."
+    enabled: true
+
+  - name: Synthesia
+    careers_url: https://jobs.ashbyhq.com/synthesia
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/synthesia OR site:job-boards.greenhouse.io/synthesia'
+    notes: "London UK. AI video generation. DS/ML roles."
+    enabled: true
+
+  - name: Faculty
+    careers_url: https://jobs.ashbyhq.com/faculty
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/faculty'
+    notes: "London UK. Applied AI consultancy. DS/ML/Delivery roles."
+    enabled: true
+
+  - name: Causaly
+    careers_url: https://jobs.ashbyhq.com/causaly
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/causaly'
+    notes: "London / Athens. Biomedical knowledge graph + AI. NLP/DS roles."
+    enabled: true
+
+  # ============================================================
+  # -- NORDICS AI --
+  # ============================================================
+
+  - name: Spotify
+    careers_url: https://jobs.lever.co/spotify
+    notes: "Stockholm SE / NYC / London. Audio platform. Large ML/personalization DS org."
+    enabled: true
+
+  - name: Vinted
+    careers_url: https://jobs.lever.co/vinted
+    notes: "Vilnius LT / Berlin. C2C marketplace unicorn. Data science & ML roles."
+    enabled: true
+
+  # ============================================================
+  # -- TURKEY & MENA TECH --
+  # ============================================================
+
+  - name: Insider (Useinsider)
+    careers_url: https://job-boards.greenhouse.io/useinsider
+    api: https://boards-api.greenhouse.io/v1/boards/useinsider/jobs
+    notes: "Istanbul TR. Growth management platform. Turkish unicorn. DS/ML roles."
+    enabled: true
+
+  - name: Hepsiburada
+    careers_url: https://job-boards.greenhouse.io/hepsiburada
+    api: https://boards-api.greenhouse.io/v1/boards/hepsiburada/jobs
+    notes: "Istanbul TR. Major e-commerce. DS/ML for rec systems, pricing, logistics."
+    enabled: true
+
+  - name: Getir
+    careers_url: https://getir.com/kariyer
+    scan_method: websearch
+    scan_query: '"Getir" careers "Data Scientist" OR "ML Engineer" OR "Machine Learning" Istanbul OR remote'
+    notes: "Istanbul TR. Quick commerce unicorn. Large DS/ML org in Istanbul."
+    enabled: true
+
+  - name: Trendyol
+    careers_url: https://trendyol.com/kariyer
+    scan_method: websearch
+    scan_query: '"Trendyol" careers "Data Scientist" OR "ML Engineer" OR "Machine Learning" Istanbul'
+    notes: "Istanbul TR. Turkey's largest e-commerce. DS/ML for rec systems, demand forecasting."
+    enabled: true
+
+  - name: Iyzico
+    careers_url: https://iyzico.com/kariyer
+    scan_method: websearch
+    scan_query: '"Iyzico" OR "iyzipay" careers "Data Scientist" OR "ML Engineer" OR "veri bilimci" Istanbul'
+    notes: "Istanbul TR. Turkey's leading payment processor (PayU group). DS/ML for fraud, risk, transaction analytics."
+    enabled: true
+
+  - name: Papara
+    careers_url: https://papara.com/kariyer
+    scan_method: websearch
+    scan_query: '"Papara" careers "Data Scientist" OR "ML Engineer" OR "Machine Learning" Istanbul'
+    notes: "Istanbul TR. Fintech unicorn -- digital wallet, payment, banking. DS/ML for fraud & personalization."
+    enabled: true
+
+  - name: Param
+    careers_url: https://param.com.tr/kariyer
+    scan_method: websearch
+    scan_query: '"Param" careers "Data Scientist" OR "ML Engineer" OR "Veri" Istanbul'
+    notes: "Istanbul TR. Fintech startup. Digital payment platform. DS/ML roles."
+    enabled: true
+
+  - name: Akbank LAB
+    careers_url: https://akbank.com/kariyer
+    scan_method: websearch
+    scan_query: '"Akbank" careers "Data Scientist" OR "ML Engineer" OR "yapay zeka" OR "Veri Bilimcisi" Istanbul'
+    notes: "Istanbul TR. Akbank AI/innovation lab. DS/ML for banking: risk, fraud, personalization, credit scoring."
+    enabled: true
+
+  - name: Dream Games
+    careers_url: https://dreamgames.com/careers
+    scan_method: websearch
+    scan_query: '"Dream Games" careers "Data Scientist" OR "ML Engineer" OR "Game Analytics" Istanbul'
+    notes: "Istanbul TR. Royal Match maker. DS/ML for player behavior, churn prediction, monetization."
+    enabled: true
+
+  - name: Spyke Games
+    careers_url: https://spykegames.com/careers
+    scan_method: websearch
+    scan_query: '"Spyke Games" careers "Data Scientist" OR "ML Engineer" OR "Data Analyst" Istanbul'
+    notes: "Istanbul TR. Mobile gaming studio. DS/ML for game analytics."
+    enabled: true
+
+  - name: Doktor Tikla
+    careers_url: https://doktortikla.com/kariyer
+    scan_method: websearch
+    scan_query: '"Doktor Tikla" OR "doktortikla" careers "Data Scientist" OR "ML Engineer" OR "healthcare" Istanbul'
+    notes: "Istanbul TR. Turkey's leading digital health platform. DS/ML for medical analytics, patient outcomes."
+    enabled: true
+
+  - name: Picus Security
+    careers_url: https://picussecurity.com/careers
+    scan_method: websearch
+    scan_query: '"Picus Security" careers "Data Scientist" OR "ML Engineer" OR "Machine Learning" Istanbul'
+    notes: "Istanbul TR. Cybersecurity unicorn. DS/ML for threat detection, anomaly scoring, attack simulations."
+    enabled: true
+
+  - name: Peak Games (Zynga Turkey)
+    careers_url: https://job-boards.greenhouse.io/zynga
+    api: https://boards-api.greenhouse.io/v1/boards/zynga/jobs
+    notes: "Istanbul TR. Peak Games acquired by Zynga/Take-Two. DS/ML for casual gaming analytics. Check for Istanbul-based roles."
+    enabled: true
+
+  - name: Peak (AI Platform)
+    careers_url: https://jobs.ashbyhq.com/peak
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/peak OR site:peak.ai/careers "Data Scientist" OR "ML Engineer"'
+    notes: "Manchester UK / remote. AI platform for supply chain & pricing decisions. DS/ML."
+    enabled: true

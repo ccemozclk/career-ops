@@ -1,0 +1,89 @@
+Company: [Yapı Kredi]
+Position: [Data Analytics Specialist]
+URL: [https://www.linkedin.com/jobs/view/4408645509]
+Manual Score: 4/5
+
+Quick Check:
+[X] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+Yapı Kredi olarak 1944’ten beri ilklerin, yeniliklerin ve kültür sanatın bankasıyız. Finans sektörünün tartışmasız lideri olma vizyonuyla yolumuzda ilerliyor, her adımımızda paydaşlarımıza ve ülkemize değer katıyoruz. Bugünü olduğu kadar geleceği de önemsiyor, sürdürülebilirliği iş kültürümüzün merkezine yerleştiriyoruz.
+
+
+Sen de bugüne ve geleceğe değer katan, yenilikçi fikirlerin peşinden giden, gücünü birbirinden alan bir ekibin parçası olmak istersen hemen aramıza katıl.
+
+
+Strateji Yönetimine bağlı Perakende Pazarlama Analitiği ve Tüzel Pazarlama Analitiği ekiplerimize katılacak Veri Bilimi Uzmanı arıyoruz!
+
+
+Veri Bilimi Uzmanı’nın sorumlulukları nelerdir?
+
+
+
+İş birimleriyle yakın çalışarak analitik ihtiyaçlarını anlamak, buna uygun analitik çözümler sunmak,
+Kompleks veri setlerini stratejik öngörüye dönüştürmek,
+Modelleme öncesi süreçlerinin tüm aşamalarında (veri toplama, temizleme ve analiz etme) yer almak ve süreçleri iyileştirmek.
+Pazarlama ve müşteri yönetimi temelli analitik modeller tasarlamak ve geliştirmek, (Denetimli/denetimsiz öğrenme, optimizasyon, fiyatlama, vb.)
+Mevcut sistemlere entegre edilecek üretken yapay zeka çözümlerini araştırmak, prototiplemek ve uygulamak,
+Geliştirilen analitik çözümlerin iş kullanıcılarına, yöneticilere ve üst yönetime aktarımını yapmak ve model yaşam döngüsü içinde yer alan paydaşlarla işbirliği içinde çalışmak,
+Geliştirilen modellerin canlıya alınma sürecinde aktif rol almak ve bu modellerin performans takibini/bakımını yapmak, modellerin performans takibinin yapılmasını sağlayacak otomasyon süreçlerini oluşturmak ve modelleri düzenli periyotlarla güncellemek,
+Veri bilimi alanındaki yenilikleri/ trendleri araştırmak, projelerde uygulamak ve ekibe aktararak bilgi paylaşımını desteklemek,
+
+
+
+
+Bu rol için aradığımız nitelikler nelerdir?
+
+
+
+Üniversitelerin İstatistik, Bilgisayar mühendisliği, Matematik mühendisliği, Endüstri mühendisliği ve benzeri bölümlerden mezun ya da bu alanlarda yüksek lisansı bulunan,
+Analitik alanda en az 3 yıllık deneyimli,
+İleri düzeyde SQL bilgisine sahip, ilişkisel veri tabanları kavramları hakkında bilgi sahibi olan,
+Python, Spark, R gibi veri analizi ve istatistiksel programlama dillerini kullanabilen,
+Makine öğrenimi, fiyatlama, öneri sistemleri ve optimizasyon süreçlerinde model geliştirme deneyimine sahip,
+Tercihen üretken yapay zeka modellerine (Generative AI, Reinforcement Learning vb) karşı ilgili ve bu alanda bir süreç tasarlamış olan,
+Analitik düşünme ve problem çözme yetkinliğine sahip,
+Veriyi analiz etme ve etkin şekilde yorumlama, veri görselleştirme konularında deneyimi olan,
+Sunum, ikna ve yazılı-sözlü iletişim becerileri gelişmiş,
+Takım çalışmasına yatkın,
+İleri seviyede İngilizce bilen bir takım arkadaşı arıyoruz.
+
+
+
+
+Yapı Kredili olmak sana neler katacak?
+
+
+
+📖 Yapı Kredi Akademi ile sınırsız gelişim,
+🏆Fark yaratan başarıların ödüllendireceği takdir ve ödüllendirme uygulamaları,
+🔄Yapı Kredi ve Koç Grubu içinde kariyer, gelişim ve rotasyon fırsatları,
+⚕️Özel sağlık ve hayat sigortası,
+🍝TokenFlex dijital yemek kartı,
+✨Sosyal destek ödemeleri,
+🐾Yapı Kredi Gönüllüleri ile dâhil olabileceğin sosyal sorumluluk projeleri,
+🏀16 farklı spor dalında faaliyet gösteren Yapı Kredi Spor Kulübü,
+🎭BizClub ile birçok kültür-sanat etkinliğine indirimli bilet alma fırsatı,
+🎁Özel günler için hediye kitleri,
+🎂Doğum günü izni,
+🐏Koç Ailem, Koç Akademi, Koç Healthcare eşliğinde Koçlu olmanın ayrıcalıklı dünyası,
+…ve çok daha fazlası!
+
+
+Eğer sen de bu dünyanın bir parçası olmak istiyorsan, hemen başvurunu yap ve Yapı Kredili olma yolunda ilk adımını at!
+
+
+Geleceğe yön vermek #YapımızdaVar.
+
+
+* Yapı Kredi’de işe alım sürecimiz tüm pozisyonlar için İK görüşmesi, yönetici görüşmeleri ve yetkinlik değerlendirme envanterleri içerir. Bütün aşamaları başarıyla tamamlaman durumunda teklif aşamasına geçilir.
+
+
+
+“6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında kişisel verilerinizin işlenmesinden doğan haklarınıza ve bu konudaki detaylı bilgiyehttps://kariyerim.yapikredi.com.tr/Account/StaticKvkk adresinde yer alan aydınlatma metnimizden ulaşabilirsiniz.”]

@@ -1,0 +1,39 @@
+Company: [ING Hubs]
+Position: [Expert Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4407334354/]
+Manual Score: 4/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[X] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+--- 
+
+[İş ilanı hakkında
+About you
+
+Bachelor’s with analytical background, preferably in a quantitative discipline Mathematics, Engineering, Economics, MIS, Statistics etc. (Master’s degree or PhD will be a plus),
+4+ years of work experience in data science field.
+Broad experience with end-to-end machine learning project implementation. Involvement in all modelling steps from data extraction to modelling and deployment.
+Theoretical knowledge of statistical modelling and machine learning, and a demonstrated ability to apply these to solve business problems and develop innovative models and/or data-driven products
+Strong knowledge of Python, SQL or relevant statistical tools. (Spark, GCP, Git , DevOps will be a plus)
+Excellent team member with an ability to clearly communicate at all levels of an organization in a collaborative and non-hierarchical environment
+Excellent analytical skills and attention to details
+Desire to use modern technologies as a disruptive influence,
+Open-minded for new technologies.
+Strong verbal and written communication skills in English and Turkish
+ 
+
+How to Succeed
+
+Manage the entire analytical process – from outlining the type of solution through implementation, interpretation of results and transferring capabilities to business units
+Use data assets to gain insights into current business processes and propose enhancements for core decision making processes
+Analyze portfolio trends and detect the root causes of problems by performing advanced data analysis and modelling techniques
+Develop new strategies by analyzing and evaluating large data volumes and utilizing various statistical and analytical techniques and tools
+Effective Communication: Understanding of effective communication concepts, tools and techniques; ability to effectively transmit, receive, and accurately interpret ideas, information, and needs through the application of appropriate communication behaviors
+Flexibility & Adaptability: Knowledge of successful approaches, tools, and techniques for dealing with changes and adapting to a changing environment; ability to adapt as needed
+Problem Solving: Knowledge of approaches, tools, techniques for recognizing, anticipating, and resolving organizational, operational or process problems; ability to apply this knowledge appropriately to diverse situations
+Analytical Thinking: Knowledge of techniques and tools that promote effective analysis and the ability to determine the root cause of diverse problems and create alternative solutions that resolve the problems in the best interest of the business]

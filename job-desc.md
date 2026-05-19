@@ -1,0 +1,58 @@
+İş ilanı hakkında
+iyzico
+
+iyzico was founded in 2013 to provide online payment services and artificial intelligence-based payment technologies to businesses of various sizes in the world of e-commerce. By making the complex payment processes simple through its easy and secure platform, iyzico had achieved significant successes through supporting thousands of businesses in digitalization and was acquired by the global payment systems giant PayU in 2019. With such a robust structure, iyzico is operating on the principle of democratizing financial services and making them accessible for everyone alongside the services it provides to businesses.
+
+
+
+Through iyzico Buyer Protection, consumers’ concerns regarding shopping online are resolved and better experiences are enabled. Control is handed back to the consumers by 24/7 live support through the iyzico mobile app and convenience in cancellation/returns processes. To this date, more than 2 million consumers shopped online under the security provided by iyzico Buyer Protection and this number is increasing daily. Via pay with iyzico, which is a blended payment solution, millions of consumers who do not use banking can safely shop online under the belt of iyzico Buyer Protection.
+
+
+
+iyzico continues to simplify online shopping for both consumers and sellers by the simple, accessible, and innovative technologies it developed.
+
+
+
+Responsibilities:
+
+Analyze large-scale structured and unstructured data from multiple sources,
+Build products that make use of AI, ML, and advanced statistical techniques from basic financial analysis to complex machine learning models,
+Come up with new ideas on the ways we detect anomalies, optimize conversions, and provide business insights through data,
+Design, analyze, and interpret the results of experiments,
+To find hidden patterns and relationships in data to provide answers to business concerns, do statistical analysis and/or data mining techniques,
+Collaborate with product, engineering, and risk teams to translate business challenges into data science problems,
+Apply best practices for working with ML-Ops infrastructure, improve models and infrastructure to optimize model performance,
+Ability to communicate complicated data outputs to audiences who are business-oriented and non-technical.
+
+
+Qualifications:
+
+Bachelor's degree in computer science, information technology, industrial engineering, mathematics or statistics,
+4-5 years experience the related responsibilities like data science or machine learning engineering,
+Strong analytical thinking and approach, hands-on experience with scientific computing languages and frameworks such as Python (e.g., scikit-learn, TensorFlow, PyTorch, Flask, h2o.ai),
+Eager to research and apply new models and can take initiative,
+SQL knowledge is a must,
+Multi-disciplinary and cooperative ability to solve problems in diverse domains including finance, marketing, sales, product development and user experience,
+Knowledge of developing workflows to deploy machine learning models and find new solutions to get processes better and faster,
+Experience of working within the financial regulations is a plus,
+Scientific approach for experimentation and rapid prototyping,
+The ability to present ideas, insights, and solutions in a clear way,
+Be interested in cutting-edge artificial intelligence products and be an early adopter who has experienced them before (Llama, GPT, Gemini).
+
+
+What We Offer
+
+A culture of continuous learning: access to conferences, inhouse events & Tech Talks to stay up to date with the latest research and technologies. (And by the way -you don’t need to wait to share your expertise on stage with your teammates and the community!)
+Online training platforms with free access to Udemy, Harvard ManageMentor, GetAbstract and more.
+Freedom under responsibility as our shared mindset, reflected in our flexible working model iyzico Homequarters. Our headquarters is based in Altunizade.
+Allowances for meals, internet, and transportation.
+Tech & workspace support: a gift voucher to cover your home office needs and ensure an ergonomic workspace.
+MacBook provided for your work.
+Employee Support Program: free psychological counseling, legal guidance, and financial advice.
+Private health insurance.
+1 day birthday leave to celebrate your special day.
+Onboarding support: an iyzicoMate assigned to help you with anything you may need, plus a detailed orientation program designed to immerse you in the iyzico culture.
+
+İş ilanınızda bulunan haklar
+
+Medical insurance

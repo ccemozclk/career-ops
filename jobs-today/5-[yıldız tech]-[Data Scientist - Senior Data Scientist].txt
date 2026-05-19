@@ -1,0 +1,131 @@
+Company: [Yıldız Tech]
+Position: [Data Scientist / Senior Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4402481313/]
+Manual Score: 4/5
+
+Quick Check:
+[✓] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[✓] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+The story of Yıldız Holding, which started with biscuit production in Istanbul in 1944, continues today with our food-snack products that we have reached 4 billion people in 5 continents with more than 300 brands and with our retail companies all over Turkey. With our 80 thousand employees, the majority of whom are located in Turkey, we aim to reach the better without stopping, and we produce a wide range of products from biscuits to chocolate, from frozen food to packaging in a total of 45 factories, 20 of which are abroad. We always raise the bar in economic contribution, employment, exports, social solidarity and sustainability. We give priority to social contribution with the principle of "Make Happy Be Happy" and we have been producing happiness for more than 80 years with our products, services and sustainable social responsibility understanding.
+
+
+
+Our company Yıldız Tech, established to support the software development journeys of our digital applications within our group and to create innovative solutions, aims to enable our customers operating in the e-commerce sector to make the most of next-generation technologies, achieve success through digital and analytical solutions, and capitalize on emerging opportunities to attain sustainable benefits.
+
+
+
+If you want to be a part of this global world with us, apply for the position of Data Scientist/Senior Data Scientist (Applied AI) to develop, evaluate, and deploy data-driven and AI-powered solutions for business problems across our digital ecosystem and join us.
+
+
+
+This is not a people management role. We are looking for strong individual contributors who combine technical depth with execution excellence and a pragmatic business mindset.
+
+
+
+
+
+What Awaits You, What Will Be Your Responsibilities?
+
+
+
+Develop, test, and improve machine learning and applied AI solutions for business use cases.
+Analyze large and complex datasets to generate actionable insights and support data-driven decision-making.
+Prepare, clean, and transform structured and unstructured data for analysis and modeling.
+Apply data wrangling techniques to handle missing values, outliers, and inconsistencies.
+Design and evaluate predictive and analytical solutions for business challenges such as forecasting, customer analytics, recommendation, and personalization.
+Create clear visualizations, reports, and presentations to communicate findings to both technical and non-technical stakeholders.
+Collaborate with cross-functional teams to define problem statements, success metrics, and solution approaches.
+Contribute to the deployment, monitoring, and continuous improvement of machine learning and AI solutions in production environments.
+Explore and evaluate modern AI approaches, including Large Language Models (LLMs) and agentic AI solutions, where they can create measurable business value.
+Work with techniques such as prompt engineering, embedding-based workflows, retrieval pipelines, and model evaluation.
+Document methodologies, experiments, technical decisions, and outcomes in a clear, reusable, and structured way.
+Stay current with developments in data science, machine learning, and applied AI, and contribute ideas that improve technical quality and delivery standards.
+
+
+
+
+For more senior candidates, the role may also include:
+
+
+
+Taking broader ownership across problem framing, solution design, technical trade-offs, and end-to-end delivery.
+Helping improve team practices in areas such as experimentation quality, documentation, reproducibility, production readiness, and collaboration.
+Providing technical guidance and mentorship through peer collaboration, review, and hands-on contribution.
+
+
+
+
+What will be the qualifications we expect from you?
+
+
+
+Bachelor’s degree in Statistics, Computer Science, Computer Engineering, Industrial Engineering, or another related quantitative field.
+3+ years of experience in data science, machine learning, advanced analytics, or applied AI. (The title and scope of the role will be calibrated based on the candidate’s technical depth, hands-on production experience, and ability to independently drive impactful data and AI solutions.)
+Strong programming skills in Python and hands-on experience with common data science libraries such as pandas, NumPy, scikit-learn, and visualization tools.
+Good command of SQL.
+Hands-on experience in data preprocessing, feature engineering, model development, and model evaluation.
+Experience in at least some of the following areas:
+Predictive analytics such as churn prediction, cross-sell/up-sell modeling, demand forecasting, and time series analysis
+Customer analytics such as segmentation, recommendation systems, and personalization
+AI / machine learning applications such as natural language processing, image processing, or related use cases
+Ability to work effectively with multiple stakeholders in cross-functional environments.
+Strong analytical thinking and problem-solving skills.
+Effective written and verbal communication skills.
+Good command of English.
+
+
+
+
+Additional Strengths for Senior Candidates:
+
+
+
+Proven ability to independently own problems from discovery to deployment.
+Experience deploying, monitoring, and improving ML/AI systems in production.
+Sound judgment in balancing model quality, complexity, speed, maintainability, and business value.
+Experience improving technical practices through review, documentation, experimentation standards, and mentoring.
+Ability to work effectively in ambiguous environments and drive progress across multiple teams and stakeholders.
+Strong ownership mindset and the ability to turn open-ended business problems into structured, high-impact solutions.
+
+
+
+
+Preferred Qualifications:
+
+
+
+Hands-on experience with Large Language Models (LLMs) and applied AI solutions, including prompt engineering, embedding models, retrieval-based pipelines, model evaluation, fine-tuning, or agent orchestration.
+Familiarity with frameworks and tools such as LangChain, OpenAI APIs, Hugging Face Transformers, or similar ecosystems.
+Experience deploying machine learning solutions using tools such as Docker, Kubernetes, and CI/CD pipelines.
+Familiarity with model serving and ML application frameworks such as MLflow, FastAPI, TorchServe, or similar tools.
+Practical experience with cloud platforms such as AWS and/or Azure, especially in areas such as compute, storage, IAM, networking, and resource provisioning.
+Experience in e-commerce, retail, customer analytics, or digital products is a plus.
+
+
+
+
+Which Skills Will Be Featuring You?
+
+
+
+Strong technical curiosity combined with pragmatic execution.
+Ability to turn ambiguous business problems into well-defined analytical or AI solutions.
+A production mindset: building solutions that are reliable, maintainable, and scalable.
+Good judgment in choosing the right level of model and system complexity for the business need.
+Ability to improve team quality through collaboration, review, and better ways of working.
+Clear communication and strong stakeholder management without losing technical depth.
+A hands-on, ownership-driven approach to delivery and continuous improvement.
+
+
+
+
+
+
+“Çalışan Adayı Aydınlatma Metni” için; https://www.yildizholding.com.tr/tr/kisisel-verilerin-korunmasi sayfamızı ziyaret edebilirsiniz.]
