@@ -11,7 +11,8 @@
 
 | Archetype | Thematic axes | What they buy |
 |-----------|---------------|---------------|
-| **Data Scientist — Classical ML** | XGBoost, anomaly detection, forecasting, A/B testing, clustering | Someone who solves business problems end-to-end with ML — not just models, but impact |
+| **AI Engineer / Agentic Systems** | LangChain, LangGraph, Multi-Agent Systems, RAG, state-machine orchestration, OR-LLM fusion | Someone who architects production Multi-Agent workflows where LLMs route to specialized model pipelines and OR solvers — not chatbots, decision systems |
+| **Data Scientist — Classical ML** | XGBoost, anomaly detection, forecasting, A/B testing, clustering, ABC-XYZ segmentation | Someone who solves business problems end-to-end with ML — not just models, but impact |
 | **Data Scientist — Deep Learning** | CNNs, RNNs, transfer learning, computer vision, Grad-CAM, explainable AI | Someone who ships production deep learning with clinical-grade accountability |
 | **ML Engineer / MLOps** | Docker, FastAPI/Django, REST APIs, model registry, containerized deployment | Someone who owns the full path from notebook to production API |
 | **Data Scientist — Financial Risk** | Credit risk, fraud/anomaly detection, imbalanced classification, XGBoost | Someone who understands that FP vs FN is a cost tradeoff, not a metric chase |
@@ -21,60 +22,62 @@
 
 | If the role is... | Emphasize about you... | Proof point sources |
 |-------------------|------------------------|---------------------|
-| Classical ML / Forecasting / Time Series | Predictive maintenance (15% OEE gain), Rossmann demand forecasting (~12.83% RMSPE on 1,115 stores), supply chain ML (8h/week overtime reduction) | cv.md Birinci + Rossmann Forecasting + Anadolu |
-| Deep Learning / Computer Vision | Medical diagnostics CNN (97% Recall, 93% Test Accuracy, Grad-CAM XAI) + comparative VGG16/ResNet50 study | cv.md Pneumonia Detection project |
-| ML Engineer / MLOps / Deployment | Django ML platform (multi-model REST API, Docker, model registry); Rossmann FastAPI inference + dashboard; Credit Risk full lifecycle | Anadolu + Rossmann + Credit Risk projects |
-| Financial Risk / Fraud / Anomaly | Credit Risk end-to-end (XGBoost, class imbalance, temporal holdout, Docker), industrial anomaly detection at Birinci | article-digest.md Story 4 + Birinci predictive maintenance |
-| Data Analytics / BI / Dashboards | Rossmann interactive dashboard (Streamlit + dynamic CI), Credit Risk Django EDA platform, Route profitability analysis (3% efficiency) | Rossmann + Credit Risk + cv.md Anadolu |
-| E-Commerce / Recommendation / Search | Amazon AI Search Engine (semantic + Word2Vec + Item2Vec at production scale), Spark Recommendation Engine (RFM + K-Means + ALS) | Amazon Search + Spark Rec Engine projects |
-| NLP / LLM / Text / Sequential | Bidirectional LSTM sentiment (88.54% accuracy, custom architecture), semantic search with SentenceTransformers, Item2Vec embeddings | Sentiment LSTM + Amazon Search projects |
+| LLM / GenAI / RAG / Agentic / Multi-Agent | **Production Multi-Agent decision-support framework at Anadolu Pet (LangChain/LangGraph) — Forecaster Agent routing ABC-XYZ-segmented SKUs to specialized pipelines; ERP Budget Copilot (multi-node state machine + Oracle DB validation); Route Profitability LangGraph fusing OR solvers with LLM routing.** This is a PRIMARY archetype, not exploratory. | cv.md Anadolu Senior Database Analyst + IT/Data Analytics Specialist roles |
+| Classical ML / Forecasting / Time Series | Predictive maintenance (15% OEE gain), Rossmann demand forecasting (~12.83% RMSPE on 1,115 stores), supply chain ML (8h/week overtime reduction), Agentic ABC-XYZ + XGBoost segmentation pipeline | cv.md Birinci + Rossmann Forecasting + Anadolu Forecaster Agent |
+| Deep Learning / Computer Vision | Medical diagnostics CNN (97% Recall, 93% Test Accuracy, Grad-CAM XAI) + comparative VGG16/ResNet50 study; YOLO Computer Vision pipeline for OEE Quality at Birinci (hot-metal forge conditions, Data Augmentation) | cv.md Pneumonia Detection project + Birinci YOLO |
+| ML Engineer / MLOps / Deployment | Django ML platform (multi-model REST API, Docker, model registry); Rossmann FastAPI inference + dashboard; Credit Risk full lifecycle; Agentic services deployed via Django REST | Anadolu + Rossmann + Credit Risk projects |
+| Financial Risk / Fraud / Anomaly | Credit Risk end-to-end (XGBoost, class imbalance, temporal holdout, Docker), industrial anomaly detection at Birinci, Anadolu CZ-segment anomaly isolation with custom Safety Stock optimization | article-digest.md Story 4 + Birinci predictive maintenance + Anadolu Agentic |
+| Data Analytics / BI / Dashboards | Rossmann interactive dashboard (Streamlit + dynamic CI), Credit Risk Django EDA platform, Route profitability analysis (3% efficiency), Association Rule Mining → strategic business actions | Rossmann + Credit Risk + cv.md Anadolu |
+| E-Commerce / Recommendation / Search | Amazon AI Search Engine (semantic + Word2Vec + Item2Vec at production scale), Spark Recommendation Engine (RFM + K-Means + ALS), Anadolu Association Rule Mining for SKU affinity | Amazon Search + Spark Rec Engine + Anadolu |
+| NLP / LLM / Text / Sequential | Bidirectional LSTM sentiment (88.54% accuracy, custom architecture), semantic search with SentenceTransformers, Item2Vec embeddings, Multi-Agent LLM orchestration (LangChain/LangGraph) | Sentiment LSTM + Amazon Search + Anadolu Agentic |
 | Big Data / Distributed / Spark | PySpark + Databricks recommendation engine, distributed ETL for 800K+ records in Amazon Search, RFM at scale | Spark Rec Engine + Amazon Search project |
-| Industrial / Manufacturing / IoT | Predictive maintenance on CNC/stamping (15% availability), OEE improvement, sensor time-series, operational adoption story | article-digest.md Story 1 + cv.md Birinci |
+| Industrial / Manufacturing / IoT | Predictive maintenance on CNC/stamping (15% availability), OEE improvement, sensor time-series, YOLO on forge-press line, operational adoption story | article-digest.md Story 1 + cv.md Birinci |
 | Healthcare AI / Medical Imaging | Pneumonia CNN with cost-function (FN>>FP), Grad-CAM clinical trust, dataset bias detection through visualization | Medical Diagnostics project |
-| Supply Chain / Logistics / Demand | Rossmann forecasting (RMSPE 12.83%), Anadolu supply chain (8h/week reduction), MILP optimization background, route profitability | Rossmann + Anadolu + IE background |
-| LLM / GenAI / RAG / Agentic | Active exploration of GPT/Llama/Gemini in CV; Industrial Engineering optimization mindset for prompt design and cost/latency tradeoffs; deployable systems mindset (FastAPI/Django) directly applicable to LLM apps | cv.md Continuous Innovation + ML Engineer/MLOps proof points |
+| Supply Chain / Logistics / Demand | Rossmann forecasting (RMSPE 12.83%), Anadolu supply chain (8h/week reduction), MILP optimization background, "True Cost to Serve" LangGraph route profitability framework | Rossmann + Anadolu + IE background |
 
 ## Your Exit Narrative
 
 Use this story to frame ALL content (summaries, STAR answers, cover letters):
 
-> Industrial Engineering graduate who crossed into data science through manufacturing analytics at a Tier-1 automotive supplier, then scaled ML to a production deployment platform. The Industrial Engineering background — operations research, MILP, AHP, cost-function optimization — is the unfair advantage: I default to "what are we minimizing, and what does it cost when we're wrong?" rather than chasing accuracy scores. This framing has driven every project: optimizing for OEE uptime instead of F1, for clinical Recall instead of accuracy, for portfolio-level credit risk instead of model performance.
+> Industrial Engineering graduate who crossed into data science through manufacturing analytics at a Tier-1 automotive supplier, then scaled ML to a multi-model production deployment platform, and now architects Agentic AI workflows where LLMs (LangChain/LangGraph) route to specialized model pipelines and Operations Research solvers. The Industrial Engineering background — MILP, AHP, cost-function optimization — is the unfair advantage: I default to "what are we minimizing, and what does it cost when we're wrong?" rather than chasing accuracy scores. This framing has driven every project: optimizing for OEE uptime instead of F1, for clinical Recall instead of accuracy, for portfolio-level credit risk instead of model performance, and now for "True Cost to Serve" inside Multi-Agent decision systems.
 
-**In PDF Summaries:** Bridge from operations research roots to production ML impact.
-**In STAR stories:** Reference proof points from article-digest.md, always naming the business metric not just the model metric.
-**In Draft Answers:** Lead with the Industrial Engineering angle as the differentiator vs CS-background candidates.
+**In PDF Summaries:** Bridge from operations research roots → production ML → Agentic AI architecture.
+**In STAR stories:** Reference proof points from article-digest.md + Anadolu Multi-Agent work, always naming the business metric not just the model metric.
+**In Draft Answers:** Lead with the Industrial Engineering angle as the differentiator vs CS-background candidates — especially for agentic/LLM roles where most candidates lack OR rigor.
 
 ## Your Experience Duration — IMPORTANT FACTUAL CONSTRAINT
 
-**Current experience as of April 2026:** 4 years 10 months total professional experience (started June 2021 at Birinci Automotive).
+**Current experience as of May 2026:** 4 years 11 months total professional experience (started June 2021 at Birinci Automotive).
 
 **STRICT RULES for CV summaries, cover letters, and STAR answers:**
-- ✅ Use: "4+ years", "nearly 5 years", "5 years of progressive experience", "almost 5 years"
+- ✅ Use: "4+ years", "nearly 5 years", "almost 5 years", "5 years of progressive experience"
 - ❌ NEVER claim: "5 years" as a flat number until June 2026
 - ❌ NEVER round up to "5+ years" or "6 years"
 
 **Why this matters:** Misstating duration creates a credibility risk in interviews. Recruiters often ask "How many years exactly?" and an inflated number anchors the entire conversation negatively.
 
 **When the JD asks for "X+ years":**
-- "4+ years required" → state "5 years" (acceptable rounding for ATS keyword match)
+- "4+ years required" → state "nearly 5 years" or "5 years of progressive experience" (acceptable framing for ATS keyword match)
 - "5+ years required" → state "5 years of progressive end-to-end ML experience" (truthful framing — qualitatively senior, just shy of 5 calendar years)
 - "7+ years required" → state actual "4+ years of progressive experience" and emphasize seniority of work, not duration. Do not pretend.
 
-**Update this rule:** After June 2026, change all "4+" references to "5+".
+**Update this rule:** From June 2026 onward, change all "4+" references to "5+" and remove the "almost 5 years" hedging.
 
 ## Your Cross-cutting Advantage
 
-Frame profile as **"Full-lifecycle ML practitioner with operations research roots"**:
+Frame profile as **"Full-lifecycle ML & Agentic AI practitioner with operations research roots"**:
 
-- **Not just a modeler** — owns the pipeline from raw sensor data to containerized REST API
-- **Not just a deployer** — understands the statistical and domain depth behind the model
-- **Unique angle:** Industrial Engineering trains cost-function thinking natively. Every ML problem is reframed as: what's the asymmetric cost of being wrong in each direction?
-- **The proof:** Predictive maintenance (cost of downtime vs. false alarm), Medical AI (cost of missed diagnosis), Credit Risk (FP = frustrated customer, FN = lost money)
+- **Not just a modeler** — owns the pipeline from raw sensor data to containerized REST API to Multi-Agent decision system
+- **Not just a deployer** — understands the statistical and domain depth behind every model and every routing decision
+- **Not just an LLM wrapper-builder** — fuses LLM orchestration with OR solvers (LangGraph + MILP) so agents return optimal decisions, not plausible ones
+- **Unique angle:** Industrial Engineering trains cost-function thinking natively. Every ML/AI problem is reframed as: what's the asymmetric cost of being wrong in each direction? — including in agentic systems where a wrong route or a hallucinated parameter has a measurable € cost
+- **The proof:** Predictive maintenance (cost of downtime vs. false alarm), Medical AI (cost of missed diagnosis), Credit Risk (FP = frustrated customer, FN = lost money), "True Cost to Serve" agentic routing (gross margin vs. logistics cost)
 
 ## Your Portfolio / Demo
 
 | Project | URL | Best For (JD Signals) |
 |---------|-----|------------------------|
+| **Anadolu Multi-Agent Decision System (LangChain + LangGraph + OR)** | internal (Anadolu Pet) — describe in cover letters & STAR | LLM, GenAI, RAG, Agentic AI, Multi-Agent, LangChain, LangGraph, prompt engineering, state-machine orchestration, AI Engineer — **primary anchor for agentic archetype** |
 | **Credit Risk Prediction (XGBoost + Django + Docker)** | github.com/ccemozclk/Credit-Risk | Fintech, fraud, credit risk, payment intelligence, anomaly detection — finrisk archetype primary anchor |
 | **Pneumonia Detection (CNN + Grad-CAM)** | github.com/ccemozclk/Deep-Learning-Project-CNN-VGG16-ResNet50 | Healthcare AI, computer vision, deep learning, XAI, medical imaging |
 | **Rossmann Demand Forecasting (LightGBM + FastAPI)** | github.com/ccemozclk/Rossman-Demand-Forecasting | Retail, demand forecasting, time-series, MLOps, dashboard/BI roles |
@@ -89,24 +92,27 @@ When evaluating a JD, map to Cem's archetypes:
 
 | JD signals | → Archetype |
 |------------|-------------|
+| "LLM", "GenAI", "RAG", "agentic", "multi-agent", "LangChain", "LangGraph", "GPT", "prompt engineering", "AI Engineer", "AI agent" | **ai-engineer-agentic** (PRIMARY — Anadolu Multi-Agent + ERP Copilot + Route Profitability LangGraph are the anchors; lead with OR-LLM fusion as differentiator) |
+| "vector database", "embedding", "semantic search", "Qdrant", "Pinecone", "Weaviate" | ai-engineer-agentic (flag vector DB capability via Amazon Search Engine) |
 | "XGBoost", "gradient boosting", "tree-based", "forecasting", "time-series", "anomaly detection", "demand forecasting" | data-scientist-classical |
-| "CNN", "computer vision", "deep learning", "transfer learning", "PyTorch", "TensorFlow", "image", "medical imaging" | data-scientist-deep-learning |
+| "CNN", "computer vision", "deep learning", "transfer learning", "PyTorch", "TensorFlow", "image", "medical imaging", "YOLO" | data-scientist-deep-learning |
 | "MLOps", "deployment", "Docker", "REST API", "model serving", "production", "pipeline", "FastAPI", "microservices" | ml-engineer-mlops |
 | "credit risk", "fraud detection", "financial risk", "default prediction", "payment intelligence" | data-scientist-finrisk |
 | "SQL", "analytics", "reporting", "BI", "dashboard", "EDA", "business intelligence", "data analyst" | senior-data-analyst |
 | "predictive maintenance", "manufacturing", "industrial", "OEE", "sensor data", "IoT" | data-scientist-classical (flag manufacturing domain strength) |
 | "PySpark", "Databricks", "distributed", "big data", "Spark" | ml-engineer-mlops (flag big data capability) |
-| "LLM", "GenAI", "RAG", "agentic", "GPT", "prompt engineering", "vector database", "embedding" | ml-engineer-mlops (flag LLM exploration; emphasize deployable systems + cost/latency framing) |
-| "recommendation", "personalization", "rec system", "collaborative filtering", "search", "semantic search" | ml-engineer-mlops (flag e-commerce + production rec systems experience) |
-| "NLP", "text classification", "sentiment", "language model", "tokenization", "embedding" | data-scientist-deep-learning (flag custom architecture + sequential modeling) |
+| "recommendation", "personalization", "rec system", "collaborative filtering", "search", "semantic search" | ml-engineer-mlops (flag e-commerce + production rec systems experience; consider ai-engineer-agentic if LLM-based search) |
+| "NLP", "text classification", "sentiment", "language model", "tokenization" | data-scientist-deep-learning (flag custom architecture + sequential modeling) |
+| "supply chain", "logistics", "route optimization", "demand planning", "inventory", "ABC analysis" | data-scientist-classical (flag Anadolu agentic supply chain work + IE/MILP background) |
 
 
 ### Project Selection Logic (Pick Top 3 for the CV)
  
-When generating the personalized CV, ALWAYS select the 3 most relevant projects based on JD signals, in this priority order:
+When generating the personalized CV, ALWAYS select the 3 most relevant projects based on JD signals, in this priority order. **Note:** The Anadolu Multi-Agent work is described in the Experience section (Senior Database Analyst role) — it does not need a separate "Projects" slot unless the JD is heavily agentic.
  
 | If JD signals are primarily... | Top 3 Projects (in order) |
 |---|---|
+| LLM / GenAI / Agentic / Multi-Agent / AI Engineer | Amazon AI Search Engine (vector DB + semantic search) → Sentiment LSTM (custom sequential architecture) → Rossmann (FastAPI production deployment) — **also surface the Anadolu Multi-Agent work prominently in Summary + STAR** |
 | Fintech / fraud / credit / payment | Credit Risk → Rossmann (forecasting=risk-adjacent) → Pneumonia (cost-function story) |
 | Healthcare / medical imaging / clinical AI | Pneumonia Detection → Credit Risk (cost-function transfer) → Sentiment LSTM (deep learning depth) |
 | E-commerce / retail / recommendation / personalization | Amazon AI Search Engine → Spark Recommendation → Rossmann Forecasting |
@@ -115,12 +121,15 @@ When generating the personalized CV, ALWAYS select the 3 most relevant projects 
 | NLP / LLM / search / language | Amazon AI Search Engine → Sentiment LSTM → Spark Recommendation |
 | Big data / Spark / distributed | Spark Recommendation → Amazon AI Search Engine → Rossmann Forecasting |
 | Manufacturing / industrial / IoT / sensor | Credit Risk (anomaly methodology) → Rossmann (operational forecasting) → Pneumonia (cost-function) |
+| Supply chain / logistics / demand planning | Rossmann Forecasting → Spark Recommendation → Credit Risk — **lead Summary with Anadolu agentic supply chain + IE/MILP roots** |
 | Generic Senior DS (no strong domain signal) | Credit Risk → Rossmann → Pneumonia Detection |
 | Computer Vision / image / video | Pneumonia Detection → Sentiment LSTM (deep learning breadth) → Amazon AI Search Engine (vector embeddings) |
  
 **Rule:** If JD signals 4.0+ score for a primary domain, ALWAYS lead with the project that matches that domain — don't follow defaults blindly.
  
 **Rule:** Never put more than 5 projects in the CV. The discipline of selection is part of the value.
+
+**Rule:** For agentic/LLM/AI Engineer JDs, the Anadolu Multi-Agent Decision System (Forecaster Agent + ERP Budget Copilot + Route Profitability LangGraph) is the strongest proof — it is production work, not a side project. Frame it in the Experience section bullets and lead the Summary with it; reserve the Projects section for technical breadth (NLP, CV, big data, etc.).
 
 
 ## Your Comp Targets
@@ -304,11 +313,3 @@ Check every JD against these specific archetype matchings:
 
 If multiple categories match, blend: 1 primary + 1 transferable + 1 
 breadth project. NEVER default to the same 3 for every evaluation.
-
-Specifically for Bitaksi, Yıldız Tech, and Arabam.com (today's evaluations):
-- Bitaksi (mobility, demand forecasting, anomaly): Rossmann → Credit Risk → 
-  Spark Recommendation (segmentation = ride matching analog)
-- Yıldız Tech (e-commerce, customer analytics, LLM): Amazon AI Search → 
-  Spark Recommendation → Rossmann
-- Arabam.com (marketplace, recommendation, computer vision plus): 
-  Amazon AI Search → Spark Recommendation → Medical Diagnostics

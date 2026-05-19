@@ -15,6 +15,8 @@ target_roles:
   primary:
     - "Senior Data Scientist"
     - "ML Engineer"
+    - "AI Engineer"
+    - "GenAI / LLM Engineer"
     - "Senior Data Analyst"
   # Archetypes — detailed framing in modes/_profile.md
   archetypes:
@@ -27,6 +29,9 @@ target_roles:
     - name: "ML Engineer / MLOps"
       level: "Senior"
       fit: "primary"
+    - name: "AI Engineer / Agentic Systems"
+      level: "Senior"
+      fit: "primary"
     - name: "Data Scientist - Financial Risk"
       level: "Senior"
       fit: "primary"
@@ -35,23 +40,28 @@ target_roles:
       fit: "secondary"
 
 narrative:
-  headline: "Senior Data Scientist with Industrial Engineering roots — operations research to production ML"
-  exit_story: "Industrial Engineering graduate who crossed into DS through manufacturing analytics at a Tier-1 automotive supplier, then scaled ML to a multi-model production platform. The OR/optimization mindset — MILP, AHP, cost-function thinking — is the differentiator: I optimize for the right loss function, not just the highest accuracy."
+  headline: "Senior Data Scientist & AI Engineer with Industrial Engineering roots — from operations research to production Multi-Agent systems"
+  exit_story: "Industrial Engineering graduate who crossed into DS through manufacturing analytics at a Tier-1 automotive supplier, then scaled to a multi-model production ML platform, and now architects Agentic AI workflows (LangChain/LangGraph Multi-Agent systems) that fuse Operations Research solvers with LLM-driven decision support. The OR/optimization mindset — MILP, AHP, cost-function thinking — is the differentiator: I optimize for the right loss function, not just the highest accuracy, whether the system is a CNN, an XGBoost forecaster, or a Multi-Agent router."
   superpowers:
     - "End-to-end ML deployment (notebook to containerized REST API)"
-    - - "Cost-function thinking from Industrial Engineering — applied directly: 97% Recall on medical diagnostics (FN >> FP), Predictive Maintenance optimizing for downtime cost, Credit Risk balancing FP/FN business cost"
+    - "Cost-function thinking from Industrial Engineering — applied directly: 97% Recall on medical diagnostics (FN >> FP), Predictive Maintenance optimizing for downtime cost, Credit Risk balancing FP/FN business cost"
+    - "Agentic AI architecture — Multi-Agent decision-support systems with LangChain/LangGraph, fusing OR solvers with LLM-driven routing (Forecaster Agent, ERP Budget Copilot, Route Profitability framework)"
     - "Anomaly detection & predictive maintenance in real manufacturing environments"
     - "Deep learning with explainability (Grad-CAM, transfer learning, imbalanced datasets)"
     - "MLOps ownership (Docker, Django/FastAPI, model registry, versioned APIs)"
   domain_strengths:
+    - "Agentic AI / Multi-Agent systems / LLM-based decision support"
     - "Predictive maintenance / manufacturing"
     - "Financial risk / fraud detection"
     - "Medical imaging / healthcare AI"
-    - "Supply chain optimization"
+    - "Supply chain optimization / demand forecasting"
     - "MLOps and end-to-end deployment"
   proof_points:
+    - name: "Multi-Agent Forecaster & Route Profitability (LangChain/LangGraph at Anadolu Pet)"
+      url: "internal — Anadolu Pet Akvaryum & Effeffe"
+      hero_metric: "8h/week operational overtime reduction via Agentic AI routing ABC-XYZ-segmented SKUs to specialized model pipelines"
     - name: "AI-Powered Medical Diagnostics (CNN + Grad-CAM)"
-      url: "github.com/ccemozclk/Medical-Diagnostics"
+      url: "github.com/ccemozclk/Deep-Learning-Project-CNN-VGG16-ResNet50"
       hero_metric: "97% Recall on pneumonia detection with Grad-CAM explainability"
     - name: "End-to-End Credit Risk MLOps Pipeline"
       url: "github.com/ccemozclk/Credit-Risk"
