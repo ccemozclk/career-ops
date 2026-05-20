@@ -1,6 +1,6 @@
 # Cem Özçelik
 
-**Target Roles:** Senior Data Scientist | ML Engineer | Senior Data Analyst
+**Target Roles:** Senior Data Scientist | AI Engineer | ML Engineer | Senior Data Analyst
 **Location:** Istanbul, Turkey (open to remote / hybrid / EU relocation)
 **Phone:** +90 553 473 4556
 **Email:** i.cemozcelik@gmail.com

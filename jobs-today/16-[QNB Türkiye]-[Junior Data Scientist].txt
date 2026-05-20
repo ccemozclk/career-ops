@@ -1,0 +1,82 @@
+Company: [QNB Türkiye]
+Position: [Junior Data Scientist]
+URL: [https://www.linkedin.com/jobs/view/4412247570/]
+Manual Score: 4/5
+
+Quick Check:
+[x] Senior level explicit (not Junior, not Manager)
+[✓] Domain match (manufacturing/fintech/ecommerce/health/forecast/NLP)
+[X] Years requirement: 3+ or 4+ ✓ / 5+ borderline / 7+ skip
+[✓] Turkish or remote-friendly
+[✓] Real company (not "confidential" or recruitment-only)
+
+---
+
+[İş ilanı hakkında
+DATA SCIENTIST
+
+
+
+ENHANCE YOUR WORLD WITH AN ENHANCING CAREER
+
+
+
+Are you aware of the power of data analyzing in banking sector which is putting human at the center of the business. Do you trust yourself at creating value at a developing area of one of the oldest and biggest sectors in the World.
+
+
+
+QNB is always supporting employees who are eager to create a development at their career and the future of the sector. Our human resources policies are aiming to create an equal, fulfilled and empowering working atmosphere for individuals willing to have a satisfying career journey.
+
+
+
+What are the opportunities for you
+
+
+
+Empowering working atmosphere which will appreciate your desire for development
+Keeping up to date with a progressive sector always looking for a new opportunity
+Building a career at one of the most trustable and growing sectors.
+Comfort of working at an environment supporting your happiness and growth
+
+
+If you are willing to be a part of this developmental atmosphere
+
+
+
+We are seeking for several data scientists (junior and mid-level) who will help us in discovering the information in vast amounts of data, and making smarter decisions in QNB R&D Center. Your focuses will be combining data-driven insights and business knowledge to create analytical solutions for business units and applying machine learning techniques, doing statistical analysis, and building high quality prediction systems integrated with current systems in R&D Center projects. The ideal candidate will be intricately involved in running analytical experiments in a methodical manner, and will regularly evaluate alternate models via theoretical approaches.
+
+
+
+Job Description of Our Team:
+
+In order to ensure that process is managed in an accurate and effective way;
+
+Designing, developing, and maintaining new and current Dashboards, data models and reports to support business performance evaluations
+Troubleshooting and adjusting existing data and automated reporting environments
+Using extensive SQL and code knowledge to derive insights from large datasets in order to solve real-life, fast-paced business problems.
+Visualizing data through visualization tools and compelling data and portfolio trends to management and business units.
+Analyzing and extracting data to uncover insights, trends, and opportunities that inform strategic decisions and perform analysis.
+Collaborating closely with cross-functional teams, particularly IT, to define and execute data analysis projects,
+Contributing to the development of data analytics strategies aligned with business objectives,
+Monitoring key performance indicators (KPIs) and providing actionable recommendations based on your analyses,
+Developing predictive models using various machine learning techniques,
+Preparing smart variables by performing big data analysis, feature engineering,
+Keeping up-to-date with latest technology trends, and doing AI projects with Python/R,
+Establishing connection between the relevant units and with the consulting firms from which support is received in projects, when necessary,
+
+
+We are waiting for your application if;
+
+Bachelor’s degree from a reputable university (preferably in Mathematics, Engineering etc.),
+Interested in big data, analytics and machine learning subjects,
+Maximum 2 years of experience in related departments
+A methodological approach to data by presenting it clearly and effectively to support business decisions
+Ability to visualize data or use visualization tools,
+Good command of MS Office programs
+Good command of SQL for effective data manipulation and querying is a plus
+Using one of the following modeling programs effectively; SAS, Python, R or SPSS is a plus
+Fluency in English, both written and spoken
+Open-minded, strong analytical point of view and problem-solving skills,
+
+
+The future of banking is waiting for you, apply to create an impact on this inspire full journey.]
